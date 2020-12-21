@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jamusa</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/all.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <!-- Particles CSS -->
+  <link rel="stylesheet" media="screen" href="css/style.css">
+
+  <!-- Main Stylesheet File -->
+  <link href="lib/particles/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: Jamusa
+    Theme URL: https://jamusa.es
+    Author: Javier Muñoz
+  ======================================================= -->
+</head>
+
+<body id="page-top">
+
+  <?php include './layouts/header.php' ?>
+
+  <!-- Cabecera Vídeo -->
+  <div id="home" class="intro route bg-image">
+    <div id="particles_background">
+      <div id="particles-js"></div>
+    </div>
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h2 class="intro-title mt-5">Webs económicas que <br> te encantarán </h2>
+          <p class="intro-subtitle"><span class="text-slider-items">Tiendas Online,Blogs, Foros, Revistas,Landing Page, </span><strong class="text-slider"></strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin Cabecera Vídeo -->
+
+  <!-- Texto de Presentación -->
+  <div class="container mt-0">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="p-5">
+          <div class="title-box text-center">
+            <h3 class="h2">
+              Páginas web de calidad profesional
+            </h3>
+            <span class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <p class="text-justify mt-2">Jamusa te ofrece un servicio de páginas web baratas de primera calidad e ideal para aquellas personas que quieren <b> llevar su empresa, marca o negocio al entorno digital.</b> Conocemos la importancia de que PYMES y Autónomos tengan una mayor presencia en una gran variedad de portales y medios que frecuentan sus clientes, por lo que trabajamos con páginas web de primera calidad con un servicio óptimo garantizado.</p>
+            <p class="text-justify">¿Quieres realizar la inversión pero te preocupa el financiamiento? Tranquilo, <b>nuestras páginas web económicas</b> están diseñadas para aquellos emprendedores que no pueden costear grandes inversiones, pero que aún así están buscando un desarrollo de calidad en el funcionamiento de su página web. No hipoteques tu negocio para llegar al entorno digital, contáctanos y en Jamusa te ayudaremos a incrementar tus ganancias en Internet. Nuestros clientes nos avalan, comprueba nuestros <a href="#">trabajos realizados.</a></p>
+            <div class="line-blue"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--.row-->
+  </div>
+  <!--.container-->
+  <!-- Fin Texto de Presentación -->
+
+  <!-- Bloques Imagen + texto -->
+  <div class="container mt-0">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="box-shadow-full">
+          <!-- Bloque 1 -->
+          <div class="row">
+            <div class="col-md-6 col-md-6-fix row align-items-center">
+              <img src="./img/ordenador.jpg" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
+            </div>
+            <div class="col-md-6 col-md-6-fix">
+              <div class="title-box text-center">
+                <h3 class="h3">¿Qué te ofrecemos con<br> el diseño web económico?</h3>
+                <p class="s-description text-justify mt-2">Jamusa te ofrece los mejores resultados en cuanto al <b>diseño económico de páginas web</b> en torno a tu bolsillo. Nuestro equipo de trabajo desarrolla los diseños más atractivos y responsive para que se adapten a todos los dispositivos y evites problemas con Google, pero esto es sólo uno de los múltiples beneficios que obtienes con nuestros diseños de páginas web.</p>
+                <ul class="text-left">
+                  <li>Diseño web responsive atractivo.</li>
+                  <li>Desarrollamos tu diseño web en WordPress o PrestaShop.</li>
+                  <li>Tiendas online, Landing page, blogs, entre otros tipos de página.</li>
+                  <li>Trabajamos nuestro desarrollo web a tu medida.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="line-gray-mrg"></div>
+          <!-- Bloque 2 -->
+          <div class="row">
+            <div class="col-md-6 col-md-6-fix">
+              <div class="title-box text-center">
+                <h3 class="h3">Mantenimiento web en<br> WordPress y Prestashop</h3>
+                <p class="s-description text-justify mt-2">Todo sistema debe recibir mantenimiento de manera constante y en Jamusa <b>nuestro servicio de mantenimiento web en WordPress y PrestaShop</b> es uno de nuestros servicios más solicitados. No te preocupes por las posibles fallas que pueda tener tu página web económica, ya que nosotros nos encargaremos de que esté funcionando correctamente en todo momento para recibir a tus lectores.</p>
+                <p class="s-description text-justify mt-2">El equipo de Jamusa se encargará de <b>diagnosticar, identificar y solucionar los diferentes errores</b> que pueda presentar tu página web mientras trabajas en él, para evitar problemas mayores. Así podrás centrarte en el contenido de manera efectiva y a su vez, en tus posibles clientes para incrementar tus ventas.</p>
+                <ul class="text-left">
+                  <li>Actualización de las últimas versiones del CMS.</li>
+                  <li>Plugins actualizados para evitar virus.</li>
+                  <li>Plantillas Premium de última generación.</li>
+                  <li>Copias de seguridad para respaldar información.</li>
+                  <li>Soporte 24/7 vía correo electrónico.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-6-fix row align-items-center">
+              <img src="./img/wordpress-prestashop.png" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
+            </div>
+          </div>
+          <div class="line-gray-mrg"></div>
+          <!-- Bloque 3 -->
+          <div class="row">
+            <div class="col-md-6 col-md-6-fix row align-items-center">
+              <img src="./img/ordenador.jpg" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
+            </div>
+            <div class="col-md-6 col-md-6-fix">
+              <div class="title-box text-center">
+                <h3 class="h3">Incrementa tu <br>posicionamiento en Google</h3>
+                <p class="s-description text-justify mt-2">Ofrecemos un servicio de posicionamiento local para <b>dar a conocer tu empresa en la ciudad</b> donde se encuentra, para que tus posibles clientes te encuentren al buscar las palabas claves necesarias para encontrarte en los resultados de Google, incluyendo un mapa para llegar desde su ubicación actual.</p>
+                <ul class="text-left">
+                  <li>Presencia en Google Maps.</li>
+                  <li>Aparece en las búsquedas Google.</li>
+                  <li>Obtén reseñas de tu negocio que te respalden.</li>
+                  <li>Diseño responsive para mejor experiencia de usuarios móviles.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--.row-->
+  </div>
+  <!--.container-->
+  <!-- Fin Bloques Imagen + texto -->
+
+
+  <!-- Texto de Presentación -->
+  <div class="container mt-0">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="p-5">
+          <div class="title-box text-center">
+            <h3 class="h2">
+              Nuestras tarifas de web económicas
+            </h3>
+            <div class="line-blue"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--.row-->
+  </div>
+  <!--.container-->
+  <!-- Fin Texto de Presentación -->
+  <br><br><br><br><br><br><br>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/popper/popper.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/counterup/jquery.waypoints.min.js"></script>
+  <script src="lib/counterup/jquery.counterup.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <!-- JavaScript Particles -->
+  <script src="lib/particles/particles.js"></script>
+  <script src="lib/particles/js/app.js"></script>
+  <script src="lib/particles/js/stats.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
