@@ -182,7 +182,7 @@
             <div class="price">
               <h4>235€</h4>
             </div>
-            <button class="btn btn-block btn-outline-primary" type="submit">PÍDELO AHORA</button>
+            <button class="button btn btn-block btn-outline-primary" type="submit">PÍDELO AHORA</button>
           </div>
         </div>
         <!-- Diseño web premium -->
@@ -204,7 +204,7 @@
             <div class="price">
               <h4>315€</h4>
             </div>
-            <button class="btn btn-block btn-outline-primary active" type="submit">PÍDELO AHORA</button>
+            <button class="button btn btn-block btn-outline-primary active" type="submit">PÍDELO AHORA</button>
           </div>
         </div>
         <!-- Diseño web de tienda online -->
@@ -225,7 +225,7 @@
             <div class="price">
               <h4>425€</h4>
             </div>
-            <button class="btn btn-block btn-outline-primary" type="submit">PÍDELO AHORA</button>
+            <button class="button btn btn-block btn-outline-primary">PÍDELO AHORA</button>
           </div>
         </div>
       </div>
@@ -400,7 +400,7 @@
                     <label class="form-check-label" for="exampleCheck1">He leido y acepto la <a href="#">política de privacidad</a></label>
                   </div>
                   <div class="col-md-12 mt-3">
-                    <button type="submit" class="button button-a button-big button-rouded">Enviar mensaje</button>
+                    <button type="submit" class="button btn btn-primary btn-lg">Enviar mensaje</button>
                   </div>
                 </form>
               </div>
@@ -413,7 +413,7 @@
   <!-- .contacto -->
 
 
-  <br><br><br><br><br><br><br>
+  <?php include './layouts/footer.php' ?>
 
 
   <!-- JavaScript Libraries -->
