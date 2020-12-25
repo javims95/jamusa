@@ -27,6 +27,10 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
+b {
+  font-weight: 600;
+}
+
 .p-r {
   position: relative;
 }
@@ -132,7 +136,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #eee;
+  background-color: #fff;
   /* margin-bottom: 3rem; */
   z-index: 2;
   box-shadow: 0 -1px 30px -15px rgba(0, 0, 0, .63);
@@ -183,19 +187,6 @@ a:hover {
   margin-right: 10px;
 }
 
-/*------/ Ico Circle /------*/
-
-.ico-circle {
-  height: 100px;
-  width: 100px;
-  font-size: 2rem;
-  border-radius: 50%;
-  line-height: 1.55;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
-  display: block;
-}
 
 /*------/ Owl Carousel /------*/
 
@@ -626,8 +617,144 @@ li.nav-item {
 }
 
 /*======================================
-//--//-->   SERVICES
+//--//-->   TEXTO + IMAGEN
 ======================================*/
+
+/* Reparar columnas en tablets */
+
+@media (min-width: 768px) and (max-width: 981px) {
+  .col-md-6-fix {
+    -ms-flex: 0 0 50%;
+    flex: auto;
+    max-width: inherit;
+  }
+}
+
+/*======================================
+//--//-->   TABLA DE PRECIOS
+======================================*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.pricing-table {
+  background-color: #eee;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-table .block-heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.pricing-table .block-heading h2 {
+  color: #0078ff;
+}
+
+.pricing-table .heading {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.pricing-table .item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+  border-top: 2px solid #5ea4f3;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pricing-table .col-md-5:not(:last-child) .item {
+  margin-bottom: 30px;
+}
+
+.pricing-table .item button {
+  font-weight: 600;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pricing-table .ribbon {
+  width: 160px;
+  height: 32px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+  background: #4dbe3b;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -42px;
+  top: 20px;
+  padding-top: 7px;
+}
+
+.pricing-table .item p {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.pricing-table .features .feature {
+  font-weight: 600;
+}
+
+.pricing-table .features h4 {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 0px;
+}
+
+.pricing-table .price h4 {
+  margin: 15px 0;
+  font-size: 45px;
+  text-align: center;
+  color: #0078ff;
+}
+
+.pricing-table .buy-now button {
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  padding: 9px 0;
+}
+
+.accordion-button {
+  font-weight: 500;
+}
+
+
+/*======================================
+//--//-->   CARACTERÍASTICAS / SERVICIOS
+======================================*/
+
+.ico-circle {
+  height: 100px;
+  width: 100px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
+
+.fa-server {
+  height: 100px;
+  width: 100px;
+  font-size: 3.5rem;
+  border-radius: 50%;
+  line-height: 1.8;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
 
 .service-box {
   background-color: #fff;
@@ -637,7 +764,7 @@ li.nav-item {
   text-align: center;
 }
 
-.service-box:hover .ico-circle {
+.service-box:hover .ico-circle, .service-box:hover .fa-server  {
   transition: all 500ms ease;
   color: #fff;
   background-color: #0078ff;
@@ -654,9 +781,9 @@ li.nav-item {
   font-size: 4rem;
 }
 
+
 .service-box .s-title {
   font-size: 1.4rem;
-  text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
 }
@@ -665,19 +792,6 @@ li.nav-item {
   color: #4e4e4e;
 }
 
-/*======================================
-//--//-->   TEXTO + IMAGEN
-======================================*/
-
-/* Reparar columnas en tablets */
-
-@media (min-width: 768px) and (max-width: 981px) {
-  .col-md-6-fix {
-    -ms-flex: 0 0 50%;
-    flex: auto;
-    max-width: inherit;
-  }
-}
 
 /*======================================
 //--//-->   PORTFOLIO
@@ -969,12 +1083,8 @@ li.nav-item {
 //--//-->   CONTACT
 ======================================*/
 
-.footer-paralax {
-  padding: 4rem 0 0 0;
-}
-
 .contact-mf {
-  margin-top: 4rem;
+  margin: 2rem 0rem 2rem 0rem;
 }
 
 /*======================================
@@ -1180,97 +1290,4 @@ footer .credits a {
   height: auto;
   z-index: -1000;
   overflow: hidden;
-}
-
-/*======================================
-//--//-->   TABLA DE PRECIOS
-======================================*/
-
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
-.pricing-table {
-  background-color: #eee;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.pricing-table .block-heading {
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.pricing-table .block-heading h2 {
-  color: #0078ff;
-}
-
-.pricing-table .heading {
-  text-align: center;
-  padding-bottom: 10px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.pricing-table .item {
-  background-color: #ffffff;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
-  border-top: 2px solid #5ea4f3;
-  padding: 20px;
-  overflow: hidden;
-  position: relative;
-}
-
-.pricing-table .col-md-5:not(:last-child) .item {
-  margin-bottom: 30px;
-}
-
-.pricing-table .item button {
-  font-weight: 600;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.pricing-table .ribbon {
-  width: 160px;
-  height: 32px;
-  font-size: 12px;
-  text-align: center;
-  color: #fff;
-  font-weight: bold;
-  box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
-  background: #4dbe3b;
-  transform: rotate(45deg);
-  position: absolute;
-  right: -42px;
-  top: 20px;
-  padding-top: 7px;
-}
-
-.pricing-table .item p {
-  text-align: center;
-  margin-top: 20px;
-  opacity: 0.7;
-}
-
-.pricing-table .features .feature {
-  font-weight: 600;
-}
-
-.pricing-table .features h4 {
-  text-align: center;
-  font-size: 16px;
-  padding: 10px 0px 10px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 0px;
-}
-
-.pricing-table .price h4 {
-  margin: 15px 0;
-  font-size: 45px;
-  text-align: center;
-  color: #0078ff;
-}
-
-.pricing-table .buy-now button {
-  text-align: center;
-  margin: auto;
-  font-weight: 600;
-  padding: 9px 0;
 }

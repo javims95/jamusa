@@ -24,10 +24,10 @@
             <a class="nav-link js-scroll" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Portfolio</a>
+            <a class="nav-link js-scroll" href="#">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contacto</a>
+            <a class="nav-link js-scroll" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
