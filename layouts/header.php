@@ -1,4 +1,3 @@
-<!--/ Nav Star /-->
 <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top">DevFolio</a>
@@ -34,4 +33,3 @@
       </div>
     </div>
   </nav>
-  <!--/ Nav End /-->

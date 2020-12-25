@@ -273,7 +273,7 @@
 
 
   <!-- Características de nuestras páginas webs económicas -->
-  <section class="services-mf route mt-5">
+  <section id="service" class="services-mf route mt-5">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
