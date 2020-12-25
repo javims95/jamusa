@@ -21,6 +21,7 @@
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
   <!-- Particles CSS -->
   <link rel="stylesheet" media="screen" href="css/style.css">
 
@@ -38,6 +39,7 @@
 
   <?php include './layouts/header.php' ?>
 
+
   <!-- Cabecera Vídeo -->
   <div id="home" class="intro route bg-image">
     <div id="particles_background">
@@ -54,6 +56,7 @@
     </div>
   </div>
   <!-- Fin Cabecera Vídeo -->
+
 
   <!-- Texto de Presentación -->
   <div class="container mt-0">
@@ -83,6 +86,7 @@
   <!--.container-->
   <!-- Fin Texto de Presentación -->
 
+
   <!-- Bloques Imagen + texto -->
   <div class="container mt-0">
     <div class="row">
@@ -97,7 +101,7 @@
               <div class="title-box text-center">
                 <h3 class="h3">¿Qué te ofrecemos con<br> el diseño web económico?</h3>
                 <p class="s-description text-justify mt-2">Jamusa te ofrece los mejores resultados en cuanto al <b>diseño económico de páginas web</b> en torno a tu bolsillo. Nuestro equipo de trabajo desarrolla los diseños más atractivos y responsive para que se adapten a todos los dispositivos y evites problemas con Google, pero esto es sólo uno de los múltiples beneficios que obtienes con nuestros diseños de páginas web.</p>
-                <ul class="text-left">
+                <ul class="text-start">
                   <li>Diseño web responsive atractivo.</li>
                   <li>Desarrollamos tu diseño web en WordPress o PrestaShop.</li>
                   <li>Tiendas online, Landing page, blogs, entre otros tipos de página.</li>
@@ -114,7 +118,7 @@
                 <h3 class="h3">Mantenimiento web en<br> WordPress y Prestashop</h3>
                 <p class="s-description text-justify mt-2">Todo sistema debe recibir mantenimiento de manera constante y en Jamusa <b>nuestro servicio de mantenimiento web en WordPress y PrestaShop</b> es uno de nuestros servicios más solicitados. No te preocupes por las posibles fallas que pueda tener tu página web económica, ya que nosotros nos encargaremos de que esté funcionando correctamente en todo momento para recibir a tus lectores.</p>
                 <p class="s-description text-justify mt-2">El equipo de Jamusa se encargará de <b>diagnosticar, identificar y solucionar los diferentes errores</b> que pueda presentar tu página web mientras trabajas en él, para evitar problemas mayores. Así podrás centrarte en el contenido de manera efectiva y a su vez, en tus posibles clientes para incrementar tus ventas.</p>
-                <ul class="text-left">
+                <ul class="text-start">
                   <li>Actualización de las últimas versiones del CMS.</li>
                   <li>Plugins actualizados para evitar virus.</li>
                   <li>Plantillas Premium de última generación.</li>
@@ -137,7 +141,7 @@
               <div class="title-box text-center">
                 <h3 class="h3">Incrementa tu <br>posicionamiento en Google</h3>
                 <p class="s-description text-justify mt-2">Ofrecemos un servicio de posicionamiento local para <b>dar a conocer tu empresa en la ciudad</b> donde se encuentra, para que tus posibles clientes te encuentren al buscar las palabas claves necesarias para encontrarte en los resultados de Google, incluyendo un mapa para llegar desde su ubicación actual.</p>
-                <ul class="text-left">
+                <ul class="text-start">
                   <li>Presencia en Google Maps.</li>
                   <li>Aparece en las búsquedas Google.</li>
                   <li>Obtén reseñas de tu negocio que te respalden.</li>
@@ -152,27 +156,235 @@
     <!--.row-->
   </div>
   <!--.container-->
-  <!-- Fin Bloques Imagen + texto -->
+  <!-- .bloques Imagen + texto -->
 
 
-  <!-- Texto de Presentación -->
-  <div class="container mt-0">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="p-5">
-          <div class="title-box text-center">
-            <h3 class="h2">
-              Nuestras tarifas de web económicas
-            </h3>
-            <div class="line-blue"></div>
+  <!-- Tabla de precios -->
+  <section class="pricing-table mt-5 pb-5">
+    <div class="container">
+      <div class="block-heading">
+        <h2>Nuestras tarifas de web económicas</h2>
+        <p class="h5">Relación calidad precio imbatible</p>
+      </div>
+      <div class="row justify-content-md-center">
+        <!-- Diseño web profesional -->
+        <div class="col-md-5 col-lg-4">
+          <div class="item">
+            <div class="heading">
+              <h3>Diseño web profesional</h3>
+            </div>
+            <p></p>
+            <div class="features">
+              <h4><span class="feature">Hasta 5 secciones</span></h4>
+              <h4><span class="feature">*Dominio + alojamiento + correo: </span>gratis durante el primer año</h4>
+              <h4><span class="feature">Diseño responsive: </span>Web adaptada a móviles y tabletas</h4>
+              <h4><span class="feature">Personalización de diseño</span></h4>
+              <h4><span class="feature">Google Analytics</span></h4>
+              <h4><span class="feature">Sitemaps e indexación </span>en Google y otros buscadores</h4>
+            </div>
+            <div class="price">
+              <h4>235€</h4>
+            </div>
+            <button class="btn btn-block btn-outline-primary" type="submit">PÍDELO AHORA</button>
+          </div>
+        </div>
+        <!-- Diseño web premium -->
+        <div class="col-md-5 col-lg-4">
+          <div class="item">
+            <div class="ribbon">Mejor Opción</div>
+            <div class="heading">
+              <h3>Diseño web premium</h3>
+            </div>
+            <p></p>
+            <div class="features">
+              <h4><span class="feature">Hasta 10 secciones</span></h4>
+              <h4><span class="feature">*Dominio + alojamiento + correo: </span>gratis durante el primer año</h4>
+              <h4><span class="feature">Diseño responsive: </span>Web adaptada a móviles y tabletas</h4>
+              <h4><span class="feature">Personalización de diseño </span>+</h4>
+              <h4><span class="feature">Google Analytics</span></h4>
+              <h4><span class="feature">Sitemaps e indexación </span>en Google y otros buscadores</h4>
+            </div>
+            <div class="price">
+              <h4>315€</h4>
+            </div>
+            <button class="btn btn-block btn-outline-primary active" type="submit">PÍDELO AHORA</button>
+          </div>
+        </div>
+        <!-- Diseño web de tienda online -->
+        <div class="col-md-5 col-lg-4">
+          <div class="item">
+            <div class="heading">
+              <h3>Diseño web de tienda online</h3>
+            </div>
+            <p></p>
+            <div class="features">
+              <h4><span class="feature">**Carga inicial 30 productos</span></h4>
+              <h4><span class="feature">*Dominio + alojamiento + correo: </span>gratis durante el primer año</h4>
+              <h4><span class="feature">Diseño responsive: </span>Web adaptada a móviles y tabletas</h4>
+              <h4><span class="feature">Personalización de diseño</span>++</h4>
+              <h4><span class="feature">Google Analytics y sitemaps </span>e indexación en otros buscadores</h4>
+              <h4><span class="feature">Plantilla premium incluida </span></h4>
+            </div>
+            <div class="price">
+              <h4>425€</h4>
+            </div>
+            <button class="btn btn-block btn-outline-primary" type="submit">PÍDELO AHORA</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Acordeón -->
+      <div class="col-sm-12 mt-5">
+        <div class="accordion bg-white" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="dominio">
+              <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              * Hosting + Dominio incluido
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="dominio" data-parent="#accordionExample">
+              <div class="accordion-body">
+                <p><strong>* Jamusa te ofrece gratis los domininios .es .com .info .eu .net y .org </strong>durante el primer año incluyendo el pack de hosting de 2GB de capacidad y 60GB de transferencia mensual. Finalizado dicho año podrás abonar el plan de hosting que más se ajuste a tus necesidades.</p>
+                <p>Esta oferta no es válida si requieres de un proyecto con mayores prestaciones, por lo que se hará una evaluación de las necesidades y se procederá a la <strong> facturación del alojamiento personalizado.</strong></p>
+                <p>Además, <strong> las cuentas de correo electrónicos serán ilimitadas </strong> si el cliente decide utilizar nuestro servicio de hosting.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ** Carga inicial de 30 productos
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!--.row-->
-  </div>
-  <!--.container-->
-  <!-- Fin Texto de Presentación -->
+  </section>
+  <!-- .tabla de precios -->
+
+
+
+
+  <!--/ Section Services Star /-->
+  <section id="service" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Services
+            </h3>
+            <p class="subtitle-a">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Web Development</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-camera"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Photography</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Responsive Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Graphic Design</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Marketing Services</h2>
+              <p class="s-description text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
+                provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+
   <br><br><br><br><br><br><br>
 
 
@@ -186,6 +398,7 @@
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="lib/lightbox/js/lightbox.min.js"></script>
   <script src="lib/typed/typed.min.js"></script>
+
   <!-- JavaScript Particles -->
   <script src="lib/particles/particles.js"></script>
   <script src="lib/particles/js/app.js"></script>
