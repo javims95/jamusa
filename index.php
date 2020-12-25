@@ -40,7 +40,7 @@
   <?php include './layouts/header.php' ?>
 
 
-  <!-- Cabecera Vídeo -->
+  <!-- Cabecera  -->
   <div id="home" class="intro route bg-image">
     <div id="particles_background">
       <div id="particles-js"></div>
@@ -55,7 +55,7 @@
       </div>
     </div>
   </div>
-  <!-- Fin Cabecera Vídeo -->
+  <!-- Fin Cabecera -->
 
 
   <!-- Texto de Presentación -->
@@ -160,9 +160,9 @@
 
 
   <!-- Tabla de precios -->
-  <section class="pricing-table mt-5 pb-5">
+  <section id="precios" class="pricing-table mt-5 pb-5">
     <div class="container">
-      <div class="block-heading">
+      <div class="block-heading pt-5">
         <h2>Nuestras tarifas de web económicas</h2>
         <p class="h5">Relación calidad precio imbatible</p>
       </div>
@@ -232,25 +232,24 @@
           </div>
         </div>
       </div>
-      
+
       <!-- Acordeón -->
       <div class="col-sm-12 mt-5">
         <div class="accordion bg-white" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="dominio">
               <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              * Hosting + Dominio incluido
+                * Hosting + Dominio incluido
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="dominio" data-parent="#accordionExample">
               <div class="accordion-body">
-                <p><strong>* Jamusa te ofrece gratis los domininios .es .com .info .eu .net y .org </strong>durante el primer año incluyendo el pack de hosting de 2GB de capacidad y 60GB de transferencia mensual. Finalizado dicho año podrás abonar el plan de hosting que más se ajuste a tus necesidades.</p>
-                <p>Esta oferta no es válida si requieres de un proyecto con mayores prestaciones, por lo que se hará una evaluación de las necesidades y se procederá a la <strong> facturación del alojamiento personalizado.</strong></p>
-                <p>Además, <strong> las cuentas de correo electrónicos serán ilimitadas </strong> si el cliente decide utilizar nuestro servicio de hosting.</p>
+                <p><b>* Jamusa te ofrece gratis los domininios .es .com .info .eu .net y .org </b>durante el primer año incluyendo el pack de hosting de 2GB de capacidad y 60GB de transferencia mensual. Finalizado dicho año podrás abonar el plan de hosting que más se ajuste a tus necesidades.</p>
+                <p>Esta oferta no es válida si requieres de un proyecto con mayores prestaciones, por lo que se hará una evaluación de las necesidades y se procederá a la <b> facturación del alojamiento personalizado.</b></p>
+                <p>Además, <b> las cuentas de correo electrónicos serán ilimitadas </b> si el cliente decide utilizar nuestro servicio de hosting.</p>
               </div>
             </div>
           </div>
-
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -259,7 +258,8 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                <p><b>** Te garantizamos la carga de 30 productos de manera gratuita</b> y sin coste adicional para que tu página web comience a trabajar. Luego te formaremos por medio de tutoriales para que seas tú mismo quien cargue los productos.</p>
+                <p>Todas las páginas adicionales que solicites (Diseño Web Premium y Tienda Online) <b> serán gratuitas si desarrollas y nos envías el contenido. </b> Si deseas que lo desarrollemos nosotros, añadiremos <b> páginas adicionales por un importe de 40€.</b></p>
               </div>
             </div>
           </div>
@@ -267,24 +267,19 @@
       </div>
     </div>
   </section>
-  <!-- .tabla de precios -->
+  <!-- .acordeón -->
 
 
 
 
-  <!--/ Section Services Star /-->
-  <section id="service" class="services-mf route">
+  <!-- Características de nuestras páginas webs económicas -->
+  <section class="services-mf route mt-5">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Services
-            </h3>
-            <p class="subtitle-a">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="line-mf"></div>
+          <div class="block-heading text-center">
+            <h3 class="color-primary">Características de nuestras páginas webs económicas:</h3>
+            <p class="h5">Relación calidad precio imbatible</p>
           </div>
         </div>
       </div>
@@ -295,11 +290,9 @@
               <span class="ico-circle"><i class="ion-monitor"></i></span>
             </div>
             <div class="service-content">
-              <h2 class="s-title">Web Design</h2>
+              <h3 class="s-title">Diseño Web Responsive</h3>
               <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
+                Nuestro <b> diseño web responsive </b> brindará una mejor experiencia a cada usuario que visite tu página web sin importar qué dispositivo esté utilizando: tableta, Smartphone, ordenador, entre otros.
               </p>
             </div>
           </div>
@@ -307,74 +300,66 @@
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
-              <span class="ico-circle"><i class="ion-code-working"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Development</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-camera"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Photography</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-phone-portrait"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Responsive Design</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-paintbrush"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Graphic Design</h2>
-              <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
             <div class="service-ico">
               <span class="ico-circle"><i class="ion-stats-bars"></i></span>
             </div>
+            </div>
             <div class="service-content">
-              <h2 class="s-title">Marketing Services</h2>
+              <h3 class="s-title">Google Analytics</h3>
               <p class="s-description text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci eaque autem fugiat! Quia,
-                provident vitae! Magni
-                tempora perferendis eum non provident.
+                Nuestras páginas webs son <b> compatibles con Google Analytics </b> para que puedas rastrear las métricas necesarias, así puedes estudiar tus resultados en base a las solicitudes de tus clientes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-social-google"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Alta en Buscadores</h3>
+              <p class="s-description text-center">
+                Nuestros diseños web son localizables para los diferentes buscadores como Google, Bing, Yahoo, para <b> garantizarte la máxima indexación </b> y el rápido crecimiento de tu web en poco tiempo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-pricetags"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Mejor Precio Garantizado</h3>
+              <p class="s-description text-center">
+                Jamusa ofrece un servicio de <b> diseño y desarrollo de páginas web baratas </b> de la más alta calidad en el mercado, para que puedas dar el paso de crear tu web y tenga la presencia virtual que tanto necesita para comenzar a crecer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-options"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Diseño Personalizable</h3>
+              <p class="s-description text-center">
+              Nuestros diseños son totalmente personalizables con tus demandas para que tengas el estilo que identifica a tu empresa, sin dejar de lado la <b> experiencia del usuario y el diseño responsive </b> que necesitas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-cloud"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Hosting de Calidad</h3>
+              <p class="s-description text-center">
+              Jamusa te ofrece el mejor <b> servicio de alojamiento optimizado e increiblemente rápido para tu página web </b> que te garantiza un funcionamiento las 24 horas del día los 7 días a la semana, para evitar caídas de tu página web.
               </p>
             </div>
           </div>
@@ -382,7 +367,7 @@
       </div>
     </div>
   </section>
-  <!--/ Section Services End /-->
+  <!-- .características de nuestras páginas webs económicas -->
 
 
   <br><br><br><br><br><br><br>

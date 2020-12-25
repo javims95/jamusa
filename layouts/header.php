@@ -13,7 +13,7 @@
             <a class="nav-link js-scroll active" href="#home">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">Precios</a>
+            <a class="nav-link js-scroll" href="#precios">Precios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#service">Mantenimiento</a>
@@ -35,17 +35,3 @@
     </div>
   </nav>
   <!--/ Nav End /-->
-
-    <!-- Menú off canvas  -->
-    <!-- <input type="checkbox" id="menu-toggle" />
-    <label for="menu-toggle" class="menu-icon"><i class="fa fa-bars"></i></label>
-
-    <div class="slideout-sidebar">
-        <ul>
-            <li>Home</li>
-            <li>Catalog</li>
-            <li>About Us</li>
-            <li>Blog</li>
-            <li>Contact</li>
-        </ul>
-    </div> -->
