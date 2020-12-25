@@ -88,7 +88,7 @@
 
 
   <!-- Bloques Imagen + texto -->
-  <div class="container mt-0">
+  <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="box-shadow-full">
@@ -160,7 +160,7 @@
 
 
   <!-- Tabla de precios -->
-  <section id="precios" class="pricing-table mt-5 pb-5">
+  <section id="precios" class="pricing-table mt-2 pb-5">
     <div class="container">
       <div class="block-heading pt-5">
         <h2>Nuestras tarifas de web económicas</h2>
@@ -270,10 +270,8 @@
   <!-- .acordeón -->
 
 
-
-
   <!-- Características de nuestras páginas webs económicas -->
-  <section class="services-mf route mt-5">
+  <section class="services-mf route mt-2">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -283,7 +281,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-3">
         <div class="col-md-4">
           <div class="service-box">
             <div class="service-ico">
@@ -371,15 +369,13 @@
 
 
     <!-- Contacto -->
-    <section class="paralax-mf footer-paralax bg-image " style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
+    <section class="pt-5 pb-5 card-featured">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
+      <div class="row justify-content-center">
+        <div class="col-sm-8">
           <div class="contact-mf">
             <div id="contacto" class="box-shadow-full">
               <div class="row">
-                <div class="col-md-6">
                   <div class="title-box-2">
                     <h5 class="title-left">
                       Send Message Us
@@ -420,35 +416,6 @@
                       </div>
                     </form>
                   </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                      expedita aperiam aliquid at.
-                      Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                      mollitia inventore?
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                      <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                      <li><span class="ion-email"></span> contact@example.com</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-                      <li><a href=""><span class="ico-circle"><i class="ion-social-pinterest"></i></span></a></li>
-                    </ul>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

@@ -47,7 +47,7 @@ b {
   color: #4e4e4e;
 }
 
-.box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
+.box-shadow, .service-box, .work-box, .card-blog {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
@@ -93,11 +93,6 @@ b {
   height: 100%;
   width: 100%;
   opacity: .7;
-}
-
-.paralax-mf {
-  position: relative;
-  padding: 8rem 0;
 }
 
 .display-table {
@@ -186,7 +181,6 @@ b {
   color: #0078ff;
   margin-right: 10px;
 }
-
 
 /*------/ Owl Carousel /------*/
 
@@ -683,7 +677,7 @@ li.nav-item {
   color: #fff;
   font-weight: bold;
   box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
-  background: #4dbe3b;
+  background: #521d91 /*#4dbe3b*/;
   transform: rotate(45deg);
   position: absolute;
   right: -42px;
@@ -727,7 +721,6 @@ li.nav-item {
   font-weight: 500;
 }
 
-
 /*======================================
 //--//-->   CARACTERÍASTICAS / SERVICIOS
 ======================================*/
@@ -764,7 +757,7 @@ li.nav-item {
   text-align: center;
 }
 
-.service-box:hover .ico-circle, .service-box:hover .fa-server  {
+.service-box:hover .ico-circle, .service-box:hover .fa-server {
   transition: all 500ms ease;
   color: #fff;
   background-color: #0078ff;
@@ -781,7 +774,6 @@ li.nav-item {
   font-size: 4rem;
 }
 
-
 .service-box .s-title {
   font-size: 1.4rem;
   text-align: center;
@@ -791,7 +783,6 @@ li.nav-item {
 .service-box .s-description {
   color: #4e4e4e;
 }
-
 
 /*======================================
 //--//-->   PORTFOLIO
@@ -1083,8 +1074,11 @@ li.nav-item {
 //--//-->   CONTACT
 ======================================*/
 
-.contact-mf {
-  margin: 2rem 0rem 2rem 0rem;
+.card-featured {
+  background: -webkit-radial-gradient(top left,circle,#0078ff 0%,#521d91 100%);
+    background: radial-gradient(circle at top left,#0078ff 0%,#521d91 100%);
+    background-color: #521d91;
+    box-shadow: 0 48px 48px -32px rgba(23,16,159,.2), 0 96px 96px -64px rgba(23,16,159,.4);
 }
 
 /*======================================
