@@ -58,105 +58,102 @@
   <!-- Fin Cabecera -->
 
 
-  <!-- Texto de Presentación -->
-  <div class="container mt-0">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="p-5">
-          <div class="title-box text-center">
-            <h3 class="h2">
-              Páginas web de calidad profesional
-            </h3>
-            <span class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </span>
-            <p class="text-justify mt-2">Jamusa te ofrece un servicio de páginas web baratas de primera calidad e ideal para aquellas personas que quieren <b> llevar su empresa, marca o negocio al entorno digital.</b> Conocemos la importancia de que PYMES y Autónomos tengan una mayor presencia en una gran variedad de portales y medios que frecuentan sus clientes, por lo que trabajamos con páginas web de primera calidad con un servicio óptimo garantizado.</p>
-            <p class="text-justify">¿Quieres realizar la inversión pero te preocupa el financiamiento? Tranquilo, <b>nuestras páginas web económicas</b> están diseñadas para aquellos emprendedores que no pueden costear grandes inversiones, pero que aún así están buscando un desarrollo de calidad en el funcionamiento de su página web. No hipoteques tu negocio para llegar al entorno digital, contáctanos y en Jamusa te ayudaremos a incrementar tus ganancias en Internet. Nuestros clientes nos avalan, comprueba nuestros <a href="#">trabajos realizados.</a></p>
-            <div class="line-blue"></div>
+  <!-- Características de nuestras páginas webs económicas -->
+  <section class="services-mf mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="block-heading text-center">
+            <h3 class="color-primary">Características de nuestras páginas webs económicas:</h3>
+            <p class="h5">Relación calidad precio imbatible</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Diseño Web Responsive</h3>
+              <p class="s-description text-center">
+                Nuestro <b> diseño web responsive </b> brindará una mejor experiencia a cada usuario que visite tu página web sin importar qué dispositivo esté utilizando: tableta, Smartphone, ordenador, entre otros.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="ion-stats-bars"></i></span>
+              </div>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Google Analytics</h3>
+              <p class="s-description text-center">
+                Nuestras páginas webs son <b> compatibles con Google Analytics </b> para que puedas rastrear las métricas necesarias, así puedes estudiar tus resultados en base a las solicitudes de tus clientes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-social-google"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Alta en Buscadores</h3>
+              <p class="s-description text-center">
+                Nuestros diseños web son localizables para los diferentes buscadores como Google, Bing, Yahoo, para <b> garantizarte la máxima indexación </b> y el rápido crecimiento de tu web en poco tiempo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-pricetags"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Mejor Precio Garantizado</h3>
+              <p class="s-description text-center">
+                Jamusa ofrece un servicio de <b> diseño y desarrollo de páginas web baratas </b> de la más alta calidad en el mercado, para que puedas dar el paso de crear tu web y tenga la presencia virtual que tanto necesita para comenzar a crecer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-android-options"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Diseño Personalizable</h3>
+              <p class="s-description text-center">
+                Nuestros diseños son totalmente personalizables con tus demandas para que tengas el estilo que identifica a tu empresa, sin dejar de lado la <b> experiencia del usuario y el diseño responsive </b> que necesitas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fas fa-server"></i></span>
+            </div>
+            <div class="service-content">
+              <h3 class="s-title">Hosting de Calidad</h3>
+              <p class="s-description text-center">
+                Jamusa te ofrece el mejor <b> servicio de alojamiento optimizado e increiblemente rápido para tu página web </b> que te garantiza un funcionamiento las 24 horas del día los 7 días a la semana, para evitar caídas de tu página web.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!--.row-->
-  </div>
-  <!--.container-->
-  <!-- Fin Texto de Presentación -->
-
-
-  <!-- Bloques Imagen + texto -->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div class="box-shadow-full">
-          <!-- Bloque 1 -->
-          <div class="row">
-            <div class="col-md-6 col-md-6-fix row align-items-center">
-              <img src="./img/ordenador.jpg" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
-            </div>
-            <div class="col-md-6 col-md-6-fix">
-              <div class="title-box text-center">
-                <h3 class="h3">¿Qué te ofrecemos con<br> el diseño web económico?</h3>
-                <p class="s-description text-justify mt-2">Jamusa te ofrece los mejores resultados en cuanto al <b>diseño económico de páginas web</b> en torno a tu bolsillo. Nuestro equipo de trabajo desarrolla los diseños más atractivos y responsive para que se adapten a todos los dispositivos y evites problemas con Google, pero esto es sólo uno de los múltiples beneficios que obtienes con nuestros diseños de páginas web.</p>
-                <ul class="text-start">
-                  <li>Diseño web responsive atractivo.</li>
-                  <li>Desarrollamos tu diseño web en WordPress o PrestaShop.</li>
-                  <li>Tiendas online, Landing page, blogs, entre otros tipos de página.</li>
-                  <li>Trabajamos nuestro desarrollo web a tu medida.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="line-gray-mrg"></div>
-          <!-- Bloque 2 -->
-          <div class="row">
-            <div class="col-md-6 col-md-6-fix">
-              <div class="title-box text-center">
-                <h3 class="h3">Mantenimiento web en<br> WordPress y Prestashop</h3>
-                <p class="s-description text-justify mt-2">Todo sistema debe recibir mantenimiento de manera constante y en Jamusa <b>nuestro servicio de mantenimiento web en WordPress y PrestaShop</b> es uno de nuestros servicios más solicitados. No te preocupes por las posibles fallas que pueda tener tu página web económica, ya que nosotros nos encargaremos de que esté funcionando correctamente en todo momento para recibir a tus lectores.</p>
-                <p class="s-description text-justify mt-2">El equipo de Jamusa se encargará de <b>diagnosticar, identificar y solucionar los diferentes errores</b> que pueda presentar tu página web mientras trabajas en él, para evitar problemas mayores. Así podrás centrarte en el contenido de manera efectiva y a su vez, en tus posibles clientes para incrementar tus ventas.</p>
-                <ul class="text-start">
-                  <li>Actualización de las últimas versiones del CMS.</li>
-                  <li>Plugins actualizados para evitar virus.</li>
-                  <li>Plantillas Premium de última generación.</li>
-                  <li>Copias de seguridad para respaldar información.</li>
-                  <li>Soporte 24/7 vía correo electrónico.</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-md-6-fix row align-items-center">
-              <img src="./img/wordpress-prestashop.png" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
-            </div>
-          </div>
-          <div class="line-gray-mrg"></div>
-          <!-- Bloque 3 -->
-          <div class="row">
-            <div class="col-md-6 col-md-6-fix row align-items-center">
-              <img src="./img/ordenador.jpg" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
-            </div>
-            <div class="col-md-6 col-md-6-fix">
-              <div class="title-box text-center">
-                <h3 class="h3">Incrementa tu <br>posicionamiento en Google</h3>
-                <p class="s-description text-justify mt-2">Ofrecemos un servicio de posicionamiento local para <b>dar a conocer tu empresa en la ciudad</b> donde se encuentra, para que tus posibles clientes te encuentren al buscar las palabas claves necesarias para encontrarte en los resultados de Google, incluyendo un mapa para llegar desde su ubicación actual.</p>
-                <ul class="text-start">
-                  <li>Presencia en Google Maps.</li>
-                  <li>Aparece en las búsquedas Google.</li>
-                  <li>Obtén reseñas de tu negocio que te respalden.</li>
-                  <li>Diseño responsive para mejor experiencia de usuarios móviles.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--.row-->
-  </div>
-  <!--.container-->
-  <!-- .bloques Imagen + texto -->
+  </section>
+  <!-- .características de nuestras páginas webs económicas -->
 
 
   <!-- Tabla de precios -->
@@ -265,157 +262,161 @@
           </div>
         </div>
       </div>
+      <!-- .acordeón -->
     </div>
   </section>
-  <!-- .acordeón -->
+  <!-- .tabla de precios -->
 
 
-  <!-- Características de nuestras páginas webs económicas -->
-  <section class="services-mf route mt-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="block-heading text-center">
-            <h3 class="color-primary">Características de nuestras páginas webs económicas:</h3>
-            <p class="h5">Relación calidad precio imbatible</p>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h3 class="s-title">Diseño Web Responsive</h3>
-              <p class="s-description text-center">
-                Nuestro <b> diseño web responsive </b> brindará una mejor experiencia a cada usuario que visite tu página web sin importar qué dispositivo esté utilizando: tableta, Smartphone, ordenador, entre otros.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-stats-bars"></i></span>
-            </div>
-            </div>
-            <div class="service-content">
-              <h3 class="s-title">Google Analytics</h3>
-              <p class="s-description text-center">
-                Nuestras páginas webs son <b> compatibles con Google Analytics </b> para que puedas rastrear las métricas necesarias, así puedes estudiar tus resultados en base a las solicitudes de tus clientes.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-social-google"></i></span>
-            </div>
-            <div class="service-content">
-              <h3 class="s-title">Alta en Buscadores</h3>
-              <p class="s-description text-center">
-                Nuestros diseños web son localizables para los diferentes buscadores como Google, Bing, Yahoo, para <b> garantizarte la máxima indexación </b> y el rápido crecimiento de tu web en poco tiempo.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-pricetags"></i></span>
-            </div>
-            <div class="service-content">
-              <h3 class="s-title">Mejor Precio Garantizado</h3>
-              <p class="s-description text-center">
-                Jamusa ofrece un servicio de <b> diseño y desarrollo de páginas web baratas </b> de la más alta calidad en el mercado, para que puedas dar el paso de crear tu web y tenga la presencia virtual que tanto necesita para comenzar a crecer.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-android-options"></i></span>
-            </div>
-            <div class="service-content">
-              <h3 class="s-title">Diseño Personalizable</h3>
-              <p class="s-description text-center">
-              Nuestros diseños son totalmente personalizables con tus demandas para que tengas el estilo que identifica a tu empresa, sin dejar de lado la <b> experiencia del usuario y el diseño responsive </b> que necesitas.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="fas fa-server"></i></span>
-            </div>
-            <div class="service-content">
-              <h3 class="s-title">Hosting de Calidad</h3>
-              <p class="s-description text-center">
-              Jamusa te ofrece el mejor <b> servicio de alojamiento optimizado e increiblemente rápido para tu página web </b> que te garantiza un funcionamiento las 24 horas del día los 7 días a la semana, para evitar caídas de tu página web.
-              </p>
-            </div>
+  <!-- Texto de Presentación -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="px-5 pt-3 pb-4">
+          <div class="title-box text-center">
+            <h3 class="h2">
+              Páginas web de calidad profesional
+            </h3>
+            <span class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </span>
+            <p class="text-justify mt-2">Jamusa te ofrece un servicio de páginas web baratas de primera calidad e ideal para aquellas personas que quieren <b> llevar su empresa, marca o negocio al entorno digital.</b> Conocemos la importancia de que PYMES y Autónomos tengan una mayor presencia en una gran variedad de portales y medios que frecuentan sus clientes, por lo que trabajamos con páginas web de primera calidad con un servicio óptimo garantizado.</p>
+            <p class="text-justify">¿Quieres realizar la inversión pero te preocupa el financiamiento? Tranquilo, <b>nuestras páginas web económicas</b> están diseñadas para aquellos emprendedores que no pueden costear grandes inversiones, pero que aún así están buscando un desarrollo de calidad en el funcionamiento de su página web. No hipoteques tu negocio para llegar al entorno digital, contáctanos y en Jamusa te ayudaremos a incrementar tus ganancias en Internet. Nuestros clientes nos avalan, comprueba nuestros <a href="#">trabajos realizados.</a></p>
+            <div class="line-blue"></div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!-- .características de nuestras páginas webs económicas -->
+    <!--.row-->
+  </div>
+  <!--.container-->
+  <!-- Fin Texto de Presentación -->
 
 
-    <!-- Contacto -->
-    <section class="pt-5 pb-5 card-featured">
+  <!-- Bloques Imagen + texto -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="box-shadow-full">
+          <!-- Bloque 1 -->
+          <div class="row">
+            <div class="col-md-6 col-md-6-fix row align-items-center">
+              <img src="./img/ordenador.jpg" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
+            </div>
+            <div class="col-md-6 col-md-6-fix row align-items-center">
+              <div class="title-box text-center">
+                <h3 class="h3">¿Qué te ofrecemos con<br> el diseño web económico?</h3>
+                <p class="s-description text-justify mt-2">Jamusa te ofrece los mejores resultados en cuanto al <b>diseño económico de páginas web</b> en torno a tu bolsillo. Nuestro equipo de trabajo desarrolla los diseños más atractivos y responsive para que se adapten a todos los dispositivos y evites problemas con Google, pero esto es sólo uno de los múltiples beneficios que obtienes con nuestros diseños de páginas web.</p>
+                <ul class="text-start">
+                  <li>Diseño web responsive atractivo.</li>
+                  <li>Desarrollamos tu diseño web en WordPress o PrestaShop.</li>
+                  <li>Tiendas online, Landing page, blogs, entre otros tipos de página.</li>
+                  <li>Trabajamos nuestro desarrollo web a tu medida.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="line-gray-mrg"></div>
+          <!-- Bloque 2 -->
+          <div class="row">
+            <div class="col-md-6 col-md-6-fix row align-items-center">
+              <div class="title-box text-center">
+                <h3 class="h3">Mantenimiento web en<br> WordPress y Prestashop</h3>
+                <p class="s-description text-justify mt-2">Todo sistema debe recibir mantenimiento de manera constante y en Jamusa <b>nuestro servicio de mantenimiento web en WordPress y PrestaShop</b> es uno de nuestros servicios más solicitados. No te preocupes por las posibles fallas que pueda tener tu página web económica, ya que nosotros nos encargaremos de que esté funcionando correctamente en todo momento para recibir a tus lectores.</p>
+                <p class="s-description text-justify mt-2">El equipo de Jamusa se encargará de <b>diagnosticar, identificar y solucionar los diferentes errores</b> que pueda presentar tu página web mientras trabajas en él, para evitar problemas mayores. Así podrás centrarte en el contenido de manera efectiva y a su vez, en tus posibles clientes para incrementar tus ventas.</p>
+                <ul class="text-start">
+                  <li>Actualización de las últimas versiones del CMS.</li>
+                  <li>Plugins actualizados para evitar virus.</li>
+                  <li>Plantillas Premium de última generación.</li>
+                  <li>Copias de seguridad para respaldar información.</li>
+                  <li>Soporte 24/7 vía correo electrónico.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-6-fix row align-items-center">
+              <img src="./img/wordpress-prestashop.png" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
+            </div>
+          </div>
+          <div class="line-gray-mrg"></div>
+          <!-- Bloque 3 -->
+          <div class="row">
+            <div class="col-md-6 col-md-6-fix row align-items-center">
+              <img src="./img/ordenador.jpg" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
+            </div>
+            <div class="col-md-6 col-md-6-fix row align-items-center">
+              <div class="title-box text-center">
+                <h3 class="h3">Incrementa tu <br>posicionamiento en Google</h3>
+                <p class="s-description text-justify mt-2">Ofrecemos un servicio de posicionamiento local para <b>dar a conocer tu empresa en la ciudad</b> donde se encuentra, para que tus posibles clientes te encuentren al buscar las palabas claves necesarias para encontrarte en los resultados de Google, incluyendo un mapa para llegar desde su ubicación actual.</p>
+                <ul class="text-start">
+                  <li>Presencia en Google Maps.</li>
+                  <li>Aparece en las búsquedas Google.</li>
+                  <li>Obtén reseñas de tu negocio que te respalden.</li>
+                  <li>Diseño responsive para mejor experiencia de usuarios móviles.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--.row-->
+  </div>
+  <!--.container-->
+  <!-- .bloques Imagen + texto -->
+
+
+  <!-- Contacto -->
+  <section class="pt-5 pb-5 card-featured">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-sm-8">
           <div class="contact-mf">
             <div id="contacto" class="box-shadow-full">
               <div class="row">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Send Message Us
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="" method="post" role="form" class="contactForm">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                              <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                <div class="title-box-2">
+                  <h5 class="title-left">
+                    Send Message Us
+                  </h5>
+                </div>
+                <div>
+                  <form action="" method="post" role="form" class="contactForm">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <div class="row">
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                          <div class="validation"></div>
                         </div>
                       </div>
-                    </form>
-                  </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-3">
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                          <div class="validation"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
