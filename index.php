@@ -157,7 +157,7 @@
 
 
   <!-- Tabla de precios -->
-  <section id="precios" class="pricing-table mt-2 pb-5">
+  <section id="precios" class="pricing-table pb-5">
     <div class="container">
       <div class="block-heading pt-5">
         <h2>Nuestras tarifas de web económicas</h2>
@@ -298,7 +298,7 @@
 
 
   <!-- Bloques Imagen + texto -->
-  <div class="container">
+  <div class="container mb-5">
     <div class="row">
       <div class="col-sm-12">
         <div class="box-shadow-full">
@@ -373,50 +373,36 @@
   <section class="pt-5 pb-5 card-featured">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-sm-8">
+        <div class="col-sm-6">
           <div class="contact-mf">
             <div id="contacto" class="box-shadow-full">
               <div class="row">
                 <div class="title-box-2">
                   <h5 class="title-left">
-                    Send Message Us
+                    Contáctanos
                   </h5>
                 </div>
-                <div>
-                  <form action="" method="post" role="form" class="contactForm">
-                    <div id="sendmessage">Your message has been sent. Thank you!</div>
-                    <div id="errormessage"></div>
-                    <div class="row">
-                      <div class="col-md-12 mb-3">
-                        <div class="form-group">
-                          <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                          <div class="validation"></div>
-                        </div>
-                      </div>
-                      <div class="col-md-12 mb-3">
-                        <div class="form-group">
-                          <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                          <div class="validation"></div>
-                        </div>
-                      </div>
-                      <div class="col-md-12 mb-3">
-                        <div class="form-group">
-                          <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                          <div class="validation"></div>
-                        </div>
-                      </div>
-                      <div class="col-md-12 mb-3">
-                        <div class="form-group">
-                          <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                          <div class="validation"></div>
-                        </div>
-                      </div>
-                      <div class="col-md-12">
-                        <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
+                <form action="" method="post" role="form" class=" mt-4">
+                  <div class="form-group mb-3">
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="email" class="form-control" id="mail" placeholder="Email" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control" id="asunto" placeholder="Asunto" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+                  </div>
+                  <div class="form-check mt-1">
+                    <input type="checkbox" class="form-check-input" id="privacidad" required>
+                    <label class="form-check-label" for="exampleCheck1">He leido y acepto la <a href="#">política de privacidad</a></label>
+                  </div>
+                  <div class="col-md-12 mt-3">
+                    <button type="submit" class="button button-a button-big button-rouded">Enviar mensaje</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
