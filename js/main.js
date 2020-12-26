@@ -75,6 +75,7 @@
 	$(window).on('scroll', function () {
 		var pixels = 50;
 		var top = 1200;
+
 		if ($(window).scrollTop() > pixels) {
 			$('.navbar-expand-md').addClass('navbar-reduce');
 			$('.navbar-expand-md').removeClass('navbar-trans');
@@ -88,6 +89,41 @@
 			$('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
 		}
 	});
+
+	// /* Cambiar logotipo al hacer scroll */
+	// var imageUrl = [
+	// 	'C:/xampp/htdocs/jamusa.es/img/logo-byn.png',
+	// 	'C:/xampp/htdocs/jamusa.es/img/logo.png',
+	// ];
+
+	// $(window).on('scroll', function () {
+
+	// 	if ($("#mainNav").hasClass('navbar-trans')) {
+	// 		return $('#logo').attr('src', imageUrl[0]);
+	// 	};
+
+	// 	return $('#logo').attr('src', imageUrl[1])
+	// });
+
+	// var imageUrl = [
+	// 	'C:/xampp/htdocs/jamusa.es/img/logo.png',
+	// 	'C:/xampp/htdocs/jamusa.es/img/logo-byn.png',
+	// ];
+	// $(document).ready(function () {
+	// 	var scroll = $(window).scrollTop();
+	// 	$('#posicion').text(scroll);
+	// 	$(window).scroll(function (event) {
+	// 		var scroll = $(window).scrollTop();
+	// 		$('#logo').text(scroll);
+	// 		/*Cambia el color del div cuando es distinto a 0*/
+	// 		if (scroll != 0) {
+	// 			$('#logo').attr('src', imageUrl[0]);
+	// 		} else {
+	// 			$('#logo').attr('src', imageUrl[1]);
+	// 		}
+	// 	});
+	// });
+
 
 	/*--/ Star Typed /--*/
 	if ($('.text-slider').length == 1) {
@@ -114,6 +150,6 @@
 		}
 	});
 
-	
+
 
 })(jQuery);

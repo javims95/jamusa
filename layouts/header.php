@@ -1,6 +1,6 @@
 <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">DevFolio</a>
+      <a class="navbar-brand js-scroll" href="#page-top"><img id="logo" src="./img/logo.png" alt="logotipo" width="60" height="60">Jamusa</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -15,13 +15,13 @@
             <a class="nav-link js-scroll" href="#precios">Precios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Mantenimiento</a>
+            <a class="nav-link js-scroll" href="#">Mantenimiento</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Hosting</a>
+            <a class="nav-link js-scroll" href="#">Hosting</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Blog</a>
+            <a class="nav-link js-scroll" href="#">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#">Portfolio</a>
