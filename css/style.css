@@ -134,6 +134,7 @@ b {
   background-color: #fff;
   /* margin-bottom: 3rem; */
   z-index: 2;
+  border-radius: 1rem;
   box-shadow: 0 -1px 30px -15px rgba(0, 0, 0, .63);
 }
 
@@ -319,21 +320,21 @@ b {
 .line-blue {
   width: 100px;
   height: 2px;
-  background-color: #521d91;
+  background-color: #970FF2;
   margin: 0 auto;
 }
 
 .line-gray-mrg {
   width: 100px;
   height: 2px;
-  background-color: #521d91;
+  background-color: #970FF2;
   margin: 2rem auto 2rem auto;
 }
 
 .line-custom {
   width: 100px;
   height: 2px;
-  background-color: #521d91;
+  background-color: #970FF2;
   margin: 2rem auto 2rem auto;
 }
 
@@ -346,7 +347,15 @@ b {
 }
 
 .bg-purple {
-  background-color: #521d91;
+  background-color: #970FF2;
+}
+
+/* Títulos */
+
+.title-a {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /*======================================
@@ -681,7 +690,8 @@ li.nav-item {
   color: #fff;
   font-weight: bold;
   box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
-  background: #521d91 /*#4dbe3b*/;
+  background: #970FF2/*#4dbe3b*/
+  ;
   transform: rotate(45deg);
   position: absolute;
   right: -42px;
@@ -1079,17 +1089,14 @@ li.nav-item {
 ======================================*/
 
 .card-featured {
-  background: -webkit-radial-gradient(top left,circle,#0078ff 0%,#521d91 100%);
-    background: radial-gradient(circle at top left,#0078ff 0%,#521d91 100%);
-    background-color: #521d91;
-    box-shadow: 0 48px 48px -32px rgba(23,16,159,.2), 0 96px 96px -64px rgba(23,16,159,.4);
+  background: -webkit-radial-gradient(top left, circle, #0078ff 0%, #970FF2 100%);
+  background: radial-gradient(circle at top left, #0078ff 0%, #970FF2 100%);
+  box-shadow: 0 48px 48px -32px rgba(23, 16, 159, .2), 0 96px 96px -64px rgba(23, 16, 159, .4);
 }
 
 /*======================================
 //--//-->   FOOTER
 ======================================*/
-
-
 
 /*======================================
 //--//-->   CONtaCT FORM

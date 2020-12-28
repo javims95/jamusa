@@ -59,8 +59,8 @@
 
 
   <!-- Características de nuestras páginas webs económicas -->
-  <section class="services-mf mt-5">
-    <div class="container">
+  <section class="services-mf">
+    <div class="container mt-4 mb-0">
       <div class="row">
         <div class="col-sm-12">
           <div class="block-heading text-center">
@@ -145,7 +145,7 @@
             <div class="service-content">
               <h3 class="s-title">Hosting de Calidad</h3>
               <p class="s-description text-center">
-                Jamusa te ofrece el mejor <b> servicio de alojamiento optimizado e increiblemente rápido para tu página web </b> que te garantiza un funcionamiento las 24 horas del día los 7 días a la semana, para evitar caídas de tu página web.
+                Jamusa te ofrece el mejor <b> servicio de alojamiento optimizado e increiblemente rápido para tu página web </b> que te garantiza un funcionamiento las 24 horas los 7 días a la semana, para evitar caídas de tu página web.
               </p>
             </div>
           </div>
@@ -157,9 +157,9 @@
 
 
   <!-- Tabla de precios -->
-  <section id="precios" class="pricing-table pb-5">
-    <div class="container">
-      <div class="block-heading pt-5">
+  <section id="precios" class="pricing-table">
+    <div class="container mt-4">
+      <div class="block-heading">
         <h2>Nuestras tarifas de web económicas</h2>
         <p class="h5">Relación calidad precio imbatible</p>
       </div>
@@ -231,7 +231,7 @@
       </div>
 
       <!-- Acordeón -->
-      <div class="col-sm-12 mt-5">
+      <div class="col-sm-12 mt-4">
         <div class="accordion bg-white" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="dominio">
@@ -269,10 +269,10 @@
 
 
   <!-- Texto de Presentación -->
-  <div class="container">
+  <div class="container my-5">
     <div class="row">
       <div class="col-sm-12">
-        <div class="px-5 pt-3 pb-4">
+        <div class="px-5 box-shadow-full">
           <div class="title-box text-center">
             <h3 class="h2">
               Páginas web de calidad profesional
