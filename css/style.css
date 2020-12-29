@@ -28,7 +28,7 @@ a:hover {
 }
 
 b {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .p-r {
@@ -483,6 +483,139 @@ b {
   background-color: #0078ff;
 }
 
+/*======================================
+//--//-->   NAVBAR 2
+======================================*/
+
+.navbar-2 {
+  transition: all .5s ease-in-out;
+  background-color: #fff;
+  padding-top: 1.563rem;
+  padding-bottom: 1.563rem;
+}
+
+.navbar-2.navbar-reduce {
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+.navbar-2.navbar-trans .nav-item, .navbar-2.navbar-reduce .nav-item {
+  position: relative;
+  padding-right: 10px;
+  padding-left: 0;
+}
+
+.navbar-2.navbar-trans .nav-link, .navbar-2.navbar-reduce .nav-link {
+  color: #0078ff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar-2.navbar-trans .nav-link:before, .navbar-2.navbar-reduce .nav-link:before {
+  content: '';
+  position: absolute;
+  margin-left: 0px;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  transition: all 500ms ease;
+}
+
+.navbar-2.navbar-trans .nav-link:hover, .navbar-2.navbar-reduce .nav-link:hover {
+  color: #1B1B1B;
+}
+
+.navbar-2.navbar-trans .nav-link:hover:before, .navbar-2.navbar-reduce .nav-link:hover:before {
+  width: 35px;
+}
+
+.navbar-2.navbar-trans .show>.nav-link:before, .navbar-2.navbar-trans .active>.nav-link:before, .navbar-2.navbar-trans .nav-link.show:before, .navbar-2.navbar-trans .nav-link.active:before, .navbar-2.navbar-reduce .show>.nav-link:before, .navbar-2.navbar-reduce .active>.nav-link:before, .navbar-2.navbar-reduce .nav-link.show:before, .navbar-2.navbar-reduce .nav-link.active:before {
+  width: 35px;
+}
+
+.navbar-2.navbar-trans .nav-link:before {
+  background-color: #fff;
+}
+
+.navbar-2.navbar-trans .nav-link:hover {
+  color: #fff;
+}
+
+.navbar-2.navbar-trans .show>.nav-link, .navbar-2.navbar-trans .active>.nav-link, .navbar-2.navbar-trans .nav-link.show, .navbar-2.navbar-trans .nav-link.active {
+  color: #0078ff;
+}
+
+.navbar-2.navbar-reduce {
+  transition: all .5s ease-in-out;
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-2.navbar-reduce .nav-link {
+  color: #0078ff;
+}
+
+.navbar-2.navbar-reduce .nav-link:before {
+  background-color: #0078ff;
+}
+
+.navbar-2.navbar-reduce .nav-link:hover {
+  color: #0078ff;
+}
+
+.navbar-2.navbar-reduce .show>.nav-link, .navbar-2.navbar-reduce .active>.nav-link, .navbar-2.navbar-reduce .nav-link.show, .navbar-2.navbar-reduce .nav-link.active {
+  color: #0078ff;
+}
+
+.navbar-2.navbar-reduce .navbar-2rand {
+  color: #0078ff;
+}
+
+.navbar-2.navbar-reduce .navbar-toggler span {
+  background-color: #1B1B1B;
+}
+
+.navbar-2 .navbar-2rand {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.navbar-2 .navbar-nav .dropdown-item.show .dropdown-menu, .navbar-2 .dropdown.show .dropdown-menu, .navbar-2 .dropdown-btn.show .dropdown-menu {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+  visibility: visible !important;
+}
+
+.navbar-2 .dropdown-menu {
+  margin: 1.12rem 0 0;
+  border-radius: 0;
+}
+
+.navbar-2 .dropdown-menu .dropdown-item {
+  padding: .7rem 1.7rem;
+  transition: all 500ms ease;
+}
+
+.navbar-2 .dropdown-menu .dropdown-item:hover {
+  background-color: #0078ff;
+  color: #fff;
+  transition: all 500ms ease;
+}
+
+.navbar-2 .dropdown-menu .dropdown-item.active {
+  background-color: #0078ff;
+}
+
+.navbar-2.navbar-trans .nav-item, .navbar-2.navbar-reduce .nav-item {
+  padding-left: 10px;
+}
+
+.navbar-2.navbar-trans .nav-link:before, .navbar-2.navbar-reduce .nav-link:before {
+  margin-left: 18px;
+}
+
 /*--/ Hamburger Navbar /--*/
 
 .navbar-toggler {
@@ -795,7 +928,26 @@ li.nav-item {
 }
 
 .service-box .s-description {
-  color: #4e4e4e;
+  color: rgb(75, 75, 75);
+}
+
+/*======================================
+//--//-->   MANTENIMIENTO
+======================================*/
+
+.box-corner {
+  background-color: #fff;
+  padding: 2.5rem 1.3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.top {
+  border-top: 3px solid #970FF2;
+}
+
+.shadow {
+  box-shadow: 0 8px 17px 2px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12), 0 5px 5px -3px rgba(0,0,0,.2);
 }
 
 /*======================================

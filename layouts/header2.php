@@ -1,4 +1,4 @@
-<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+<nav class="navbar navbar-2 navbar-expand-lg fixed-top navbar-reduce" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll" href="#page-top"><img id="logo" src="./img/logo.png" alt="logotipo" width="40" height="40">Jamusa</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top"><img id="logo" src="./img/logo.png" alt="logotipo" width="40" height="40">Jamusa</a>
+      <a class="navbar-brand js-scroll" href="#page-top"><img id="logo" src="./img/logo.png" alt="logotipo" width="60" height="60">Jamusa</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -9,7 +9,7 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll active" href="index.php">Inicio</a>
+            <a class="nav-link js-scroll active" href="#home">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#precios">Precios</a>
