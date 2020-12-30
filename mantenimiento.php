@@ -29,6 +29,11 @@
         body {
             margin-top: 130px;
         }
+
+        .row {
+            margin-right: 0;
+            margin-left: 0;
+        }
     </style>
 
     <!-- =======================================================
@@ -44,7 +49,7 @@
 
 
     <!-- Foto + Descripción mantenimiento web -->
-    <section class="mt-5">
+    <section class="my-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 col-md-6-fix row align-items-center">
@@ -55,8 +60,8 @@
                         <h1 class="h2">Mantenimiento Web WordPress y Prestashop</h1>
                         <p class="text-justify mt-3">El servicio de mantenimiento web de Jamusa está disponible para <b> páginas web alojadas en WordPress y PrestaShop </b>, lo que nos convierte en tu mejor aliado para mantener el óptimo funcionamiento de tu negocio virtual. Nuestro equipo se encargará de evitar problemas futuros y solventar los problemas inesperados para mantener tu página web funcionando las 24 horas del día.</p>
                         <p class="text-justify mt-3">Recibirás las <b> últimas actualizaciones de WordPress, PrestaShops, plugins </b> y demás, sin mencionar que realizamos copias de seguridad periódicas. Jamusa se encargará de la optimización para la carga rápida de tu página y si es necesario, también nos haremos cargo de la migración de servidores.</p>
-                        <div class="box-corner top shadow mt-4">
-                            <p class="h5">Dedícate a vender y déjanos a nosotros el resto</p>
+                        <div class="box-corner bord-top shadow mt-4">
+                            <p class="h5 fw-600">Dedícate a vender y déjanos a nosotros el resto</p>
                         </div>
                     </div>
                 </div>
@@ -66,9 +71,9 @@
     <!-- .foto + descripción mantenimiento web -->
 
 
-    <!-- Características de nuestras páginas webs económicas -->
-    <section class="mt-4">
-        <div class="container mb-0">           
+    <!-- Servicios de mantenimiento -->
+    <section>
+        <div class="container mb-0">
             <div class="row">
                 <div class="col-md-6">
                     <div class="service-box">
@@ -78,11 +83,11 @@
                         <div class="service-content">
                             <h3 class="s-title">Solución de Problemas</h3>
                             <p class="s-description text-center">
-                            Ya sea que tu competencia realice un ataque a tu página o hayas instalado un <b> plugin o plantilla incompatible con tu CMS </b>, nosotros nos encargamos de solventarlo con la mayor rapidez posible. Nos haremos carga de vigilar, detectar y corregir estos errores por ti para que te dediques a otras tareas de tu página.
+                                Ya sea que tu competencia realice un ataque a tu página o hayas instalado un <b> plugin o plantilla incompatible con tu CMS </b>, nosotros nos encargamos de solventarlo con la mayor rapidez posible. Nos haremos carga de vigilar, detectar y corregir estos errores por ti para que te dediques a otras tareas de tu página.
                             </p>
                         </div>
                     </div>
-                </div>                
+                </div>
                 <div class="col-md-6">
                     <div class="service-box">
                         <div class="service-ico">
@@ -91,7 +96,7 @@
                         <div class="service-content">
                             <h3 class="s-title">Backups Diarios</h3>
                             <p class="s-description text-center">
-                            Una copia de seguridad te ayudará a mantener tu página protegida en caso de un ataque o fallo ya que podremos restaurarla con facilidad volviendo al momento antes del ataque, por lo que <b> Jamusa te ofrece backups diarios </b> para mantener la seguridad de toda la información de tu página web.
+                                Una copia de seguridad te ayudará a mantener tu página protegida en caso de un ataque o fallo ya que podremos restaurarla con facilidad volviendo al momento antes del ataque, por lo que <b> Jamusa te ofrece backups diarios </b> para mantener la seguridad de toda la información de tu página web.
                             </p>
                         </div>
                     </div>
@@ -106,7 +111,7 @@
                         <div class="service-content">
                             <h3 class="s-title">Actualizaciones de tus CMS</h3>
                             <p class="s-description text-center">
-                            <b> WordPress y PrestaShops son los CMS que trabajamos en Jamusa </b> y debido a sus actualizaciones constantes nos aseguramos de que tengas versiones recientes para evitar ataques y mantener la compatibilidad de los plugins o módulos.
+                                <b> WordPress y PrestaShops son los CMS que trabajamos en Jamusa </b> y debido a sus actualizaciones constantes nos aseguramos de que tengas versiones recientes para evitar ataques y mantener la compatibilidad de los plugins o módulos.
                             </p>
                         </div>
                     </div>
@@ -119,7 +124,7 @@
                         <div class="service-content">
                             <h3 class="s-title">Migración de Servidor</h3>
                             <p class="s-description text-center">
-                            Si tu página web ha crecido exponencialmente necesitarás un servidor de mayor capacidad, por lo que necesitarás una migración. Jamusa ofrece el <b> servicio de migración </b> con una tasa de éxito del 100% totalmente gratuito.
+                                Si tu página web ha crecido exponencialmente necesitarás un servidor de mayor capacidad, por lo que necesitarás una migración. Jamusa ofrece el <b> servicio de migración </b> con una tasa de éxito del 100% totalmente gratuito.
                             </p>
                         </div>
                     </div>
@@ -127,119 +132,172 @@
             </div>
         </div>
     </section>
-    <!-- .características de nuestras páginas webs económicas -->
+    <!-- .servicios de mantenimiento -->
+
+
+    <!-- Banner de descuento -->
+    <section class="mt-2 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="box-corner bord-top shadow">
+                    <h2>10% Descuento en Diseño Web</h2>
+                    <p>En el momento en que te conviertas en cliente de nuestro servicio de mantenimiento web WordPress o Prestashop, obtendrás <b> un 10% de descuento </b> en nuestro servicio de diseño web económico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .banner de descuento -->
 
 
     <!-- Tabla de precios -->
     <section id="precios" class="pricing-table">
         <div class="container mt-4">
             <div class="block-heading">
-                <h2>Nuestras tarifas de web económicas</h2>
+                <h2>Nuestras tarifas de mantenimiento web</h2>
                 <p class="h5">Relación calidad precio imbatible</p>
             </div>
             <div class="row justify-content-md-center">
-                <!-- Diseño web profesional -->
+                <!-- Mantenimiento básico -->
                 <div class="col-md-5 col-lg-4">
                     <div class="item">
                         <div class="heading">
-                            <h3>Diseño web profesional</h3>
+                            <h3>Mantenimiento básico</h3>
                         </div>
-                        <p></p>
                         <div class="features">
-                            <h4><span class="feature">Hasta 5 secciones</span></h4>
-                            <h4><span class="feature">*Dominio + alojamiento + correo: </span>gratis durante el primer año</h4>
-                            <h4><span class="feature">Diseño responsive: </span>Web adaptada a móviles y tabletas</h4>
-                            <h4><span class="feature">Personalización de diseño</span></h4>
-                            <h4><span class="feature">Google Analytics</span></h4>
-                            <h4><span class="feature">Sitemaps e indexación </span>en Google y otros buscadores</h4>
+                            <h4><span class="feature"><i class="fas fa-check"></i> Sin permanencia</span></h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones del CMS</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones de plugins o módulos</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Comprobación de seguridad web</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Backups automáticos</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Test inicial de velocidad</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Restauración de copias de seguridad</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Optimización de velocidad</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> 1 Hora de desarrollo web al mes</h4>
+                            <h4><span class="feature">No incluye</span></h4>
+                            <h4><span class="feature"></span><i class="fas fa-times"></i> Publicar nuevos productos</h4>
+                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones Plugins o Módulos Premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones Plantillas Premium</h4>
                         </div>
                         <div class="price">
-                            <h4>235€</h4>
+                            <h4>39€</h4>
                         </div>
                         <button class="button btn btn-block btn-outline-primary" type="submit">PÍDELO AHORA</button>
                     </div>
                 </div>
-                <!-- Diseño web premium -->
+                <!-- Mantenimiento medio -->
                 <div class="col-md-5 col-lg-4">
                     <div class="item">
                         <div class="ribbon">Mejor Opción</div>
                         <div class="heading">
-                            <h3>Diseño web premium</h3>
+                            <h3>Mantenimiento medio</h3>
                         </div>
-                        <p></p>
                         <div class="features">
-                            <h4><span class="feature">Hasta 10 secciones</span></h4>
-                            <h4><span class="feature">*Dominio + alojamiento + correo: </span>gratis durante el primer año</h4>
-                            <h4><span class="feature">Diseño responsive: </span>Web adaptada a móviles y tabletas</h4>
-                            <h4><span class="feature">Personalización de diseño </span>+</h4>
-                            <h4><span class="feature">Google Analytics</span></h4>
-                            <h4><span class="feature">Sitemaps e indexación </span>en Google y otros buscadores</h4>
+                            <h4><span class="feature"><i class="fas fa-check"></i> Sin permanencia</span></h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones del CMS</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones de plugins o módulos</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Comprobación de seguridad web</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Backups automáticos</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Test inicial de velocidad</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Restauración de copias de seguridad</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Optimización de velocidad</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> 2 Horas de desarrollo web al mes</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> 30 Productos nuevos al mes</h4>
+                            <h4><span class="feature"> No incluye</span></h4>
+                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones Plugins o Módulos Premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones Plantillas Premium</h4>
                         </div>
                         <div class="price">
-                            <h4>315€</h4>
+                            <h4>69€</h4>
                         </div>
                         <button class="button btn btn-block btn-outline-primary active" type="submit">PÍDELO AHORA</button>
                     </div>
                 </div>
-                <!-- Diseño web de tienda online -->
+                <!-- Mantenimiento avanzado -->
                 <div class="col-md-5 col-lg-4">
                     <div class="item">
                         <div class="heading">
-                            <h3>Diseño web de tienda online</h3>
+                            <h3>Mantenimiento avanzado</h3>
                         </div>
-                        <p></p>
                         <div class="features">
-                            <h4><span class="feature">**Carga inicial 30 productos</span></h4>
-                            <h4><span class="feature">*Dominio + alojamiento + correo: </span>gratis durante el primer año</h4>
-                            <h4><span class="feature">Diseño responsive: </span>Web adaptada a móviles y tabletas</h4>
-                            <h4><span class="feature">Personalización de diseño</span>++</h4>
-                            <h4><span class="feature">Google Analytics y sitemaps </span>e indexación en otros buscadores</h4>
-                            <h4><span class="feature">Plantilla premium incluida </span></h4>
+                            <h4><span class="feature"><i class="fas fa-check"></i> Sin permanencia</span></h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones del CMS</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones de plugins o módulos</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Comprobación de seguridad web</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Backups automáticos</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Test inicial de velocidad</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Restauración de copias de seguridad</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Optimización de velocidad</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> 3 Horas de desarrollo web al mes</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> 50 Productos nuevos al mes</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones Plugins o Módulos Premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones Plantillas Premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> 1 Hora de Ideas y Mejoras Web</h4>
                         </div>
                         <div class="price">
-                            <h4>425€</h4>
+                            <h4>109€</h4>
                         </div>
                         <button class="button btn btn-block btn-outline-primary">PÍDELO AHORA</button>
                     </div>
                 </div>
             </div>
-
-            <!-- Acordeón -->
-            <div class="col-sm-12 mt-4">
-                <div class="accordion bg-white" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="dominio">
-                            <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                * Hosting + Dominio incluido
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="dominio" data-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p><b>* Jamusa te ofrece gratis los domininios .es .com .info .eu .net y .org </b>durante el primer año incluyendo el pack de hosting de 2GB de capacidad y 60GB de transferencia mensual. Finalizado dicho año podrás abonar el plan de hosting que más se ajuste a tus necesidades.</p>
-                                <p>Esta oferta no es válida si requieres de un proyecto con mayores prestaciones, por lo que se hará una evaluación de las necesidades y se procederá a la <b> facturación del alojamiento personalizado.</b></p>
-                                <p>Además, <b> las cuentas de correo electrónicos serán ilimitadas </b> si el cliente decide utilizar nuestro servicio de hosting.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                ** Carga inicial de 30 productos
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p><b>** Te garantizamos la carga de 30 productos de manera gratuita</b> y sin coste adicional para que tu página web comience a trabajar. Luego te formaremos por medio de tutoriales para que seas tú mismo quien cargue los productos.</p>
-                                <p>Todas las páginas adicionales que solicites (Diseño Web Premium y Tienda Online) <b> serán gratuitas si desarrollas y nos envías el contenido. </b> Si deseas que lo desarrollemos nosotros, añadiremos <b> páginas adicionales por un importe de 40€.</b></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- .acordeón -->
         </div>
     </section>
     <!-- .tabla de precios -->
+
+
+    <!-- FAQ -->
+    <section class="my-5">
+        <div class="container">
+        <div class="block-heading">
+                <h2>Nuestras tarifas de mantenimiento web</h2>
+                <p class="h5">Relación calidad precio imbatible</p>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-6-fix row align-items-center">
+                    <img src="./img/wordpress.png" alt="Mantenimiento económico wordpress" class="img-thumbnail">
+                </div>
+                <div class="col-md-6 col-md-6-fix row align-items-center">
+                    <!-- Acordeón -->
+                    <div class="col-sm-12 mt-4">
+                        <div class="accordion bg-white" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="dominio">
+                                    <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        * Hosting + Dominio incluido
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="dominio" data-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p><b>* Jamusa te ofrece gratis los domininios .es .com .info .eu .net y .org </b>durante el primer año incluyendo el pack de hosting de 2GB de capacidad y 60GB de transferencia mensual. Finalizado dicho año podrás abonar el plan de hosting que más se ajuste a tus necesidades.</p>
+                                        <p>Esta oferta no es válida si requieres de un proyecto con mayores prestaciones, por lo que se hará una evaluación de las necesidades y se procederá a la <b> facturación del alojamiento personalizado.</b></p>
+                                        <p>Además, <b> las cuentas de correo electrónicos serán ilimitadas </b> si el cliente decide utilizar nuestro servicio de hosting.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ** Carga inicial de 30 productos
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p><b>** Te garantizamos la carga de 30 productos de manera gratuita</b> y sin coste adicional para que tu página web comience a trabajar. Luego te formaremos por medio de tutoriales para que seas tú mismo quien cargue los productos.</p>
+                                        <p>Todas las páginas adicionales que solicites (Diseño Web Premium y Tienda Online) <b> serán gratuitas si desarrollas y nos envías el contenido. </b> Si deseas que lo desarrollemos nosotros, añadiremos <b> páginas adicionales por un importe de 40€.</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .acordeón -->
+                </div>
+                <div class="col-md-3 col-md-6-fix row align-items-center">
+                    <img src="./img/prestashop.png" alt="Mantenimiento barato prestashop" class="img-thumbnail faq-presta">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .foto + descripción mantenimiento web -->
 
 
     <?php include './layouts/footer.php' ?>

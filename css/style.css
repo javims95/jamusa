@@ -6,12 +6,71 @@
 */
 
 /*======================================
+//--//-->   FONTS
+======================================*/
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/montserrat/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gfD_u50.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/montserrat/JTURjIg1_i6t8kCHKm45_bZF3gnD_g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gfD_u50.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/montserrat/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
 
 body {
   background-color: #eee;
-  color: #333;
+  color: #333; 
+}
+
+p, span, text, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,8 +86,8 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 
-b {
-  font-weight: 700;
+b, strong {
+  font-weight: 600;
 }
 
 .p-r {
@@ -354,8 +413,21 @@ b {
 
 .title-a {
   font-size: 3rem;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
+}
+
+/* Font-weight */
+.fw-400 {
+font-weight: 400;
+}
+
+.fw-600 {
+font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
 }
 
 /*======================================
@@ -774,10 +846,8 @@ li.nav-item {
 //--//-->   TABLA DE PRECIOS
 ======================================*/
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
 .pricing-table {
   background-color: #eee;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .pricing-table .block-heading {
@@ -786,6 +856,15 @@ li.nav-item {
 }
 
 .pricing-table .block-heading h2 {
+  color: #0078ff;
+}
+
+.block-heading {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.block-heading h2 {
   color: #0078ff;
 }
 
@@ -839,7 +918,7 @@ li.nav-item {
 }
 
 .pricing-table .features .feature {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .pricing-table .features h4 {
@@ -877,7 +956,7 @@ li.nav-item {
   width: 100px;
   font-size: 2rem;
   border-radius: 50%;
-  line-height: 1.55;
+  line-height: 1.65;
   margin: 0 auto;
   text-align: center;
   box-shadow: 0 0 0 10px #0078ff;
@@ -928,7 +1007,7 @@ li.nav-item {
 }
 
 .service-box .s-description {
-  color: rgb(75, 75, 75);
+  color: #3a3a3a;
 }
 
 /*======================================
@@ -938,16 +1017,35 @@ li.nav-item {
 .box-corner {
   background-color: #fff;
   padding: 2.5rem 1.3rem;
-  margin-bottom: 3rem;
   text-align: center;
 }
 
-.top {
+.bord-top {
   border-top: 3px solid #970FF2;
 }
 
+.bord-bottom {
+  border-bottom: 3px solid #970FF2;
+}
+
 .shadow {
-  box-shadow: 0 8px 17px 2px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12), 0 5px 5px -3px rgba(0,0,0,.2);
+  box-shadow: 0 8px 17px 2px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+}
+
+/* Tabla precios */
+
+i.fas.fa-times {
+  color: red;
+}
+
+i.fas.fa-check {
+  color: #2dc339;
+}
+
+@media (max-width: 760px) {
+  .faq-presta {
+margin-top: 20px;
+  }
 }
 
 /*======================================
@@ -1250,41 +1348,6 @@ li.nav-item {
 //--//-->   FOOTER
 ======================================*/
 
-/*======================================
-//--//-->   CONtaCT FORM
-======================================*/
-
-/* #sendmessage {
-  color: #0078ff;
-  border: 1px solid #0078ff;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-} */
-
-/* #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#sendmessage.show, #errormessage.show, .show {
-  display: block;
-}
-
-.validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-} */
 
 /*======================================
 //--//-->   BUTTON
