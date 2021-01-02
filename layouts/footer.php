@@ -1,4 +1,9 @@
-<footer class="bg-secondary text-center text-lg-start">
+<!-- Back to top -->
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<!-- Gif -->
+<div id="preloader"></div>
+
+<footer class="bg-secondary text-center text-lg-start shadow-nav">
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->

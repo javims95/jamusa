@@ -26,10 +26,6 @@
     <link rel="stylesheet" media="screen" href="css/style.css">
 
     <style>
-        body {
-            margin-top: 130px;
-        }
-
         .row {
             margin-right: 0;
             margin-left: 0;
@@ -49,7 +45,21 @@
 
 <body id="page-top">
 
-    <?php include './layouts/header2.php' ?>
+    <?php include './layouts/header.php' ?>
+
+
+    <!-- Cabecera  -->
+    <div class="intro intro-single route">
+        <div class="overlay-mf"></div>
+        <div class="intro-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h1 class="intro-title mb-4">Mantenimiento Web <br> WordPress y Prestashop</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Cabecera -->
 
 
     <!-- Foto + Descripción mantenimiento web -->
@@ -61,7 +71,7 @@
                 </div>
                 <div class="col-md-7 col-md-6-fix row align-items-center">
                     <div class="title-box text-center">
-                        <h1 class="h2">Mantenimiento Web WordPress y Prestashop</h1>
+                        <h3 class="h2">¿Qué te ofrece Jamusa?</h3>
                         <p class="text-justify mt-3">El servicio de mantenimiento web de Jamusa está disponible para <b> páginas web alojadas en WordPress y PrestaShop </b>, lo que nos convierte en tu mejor aliado para mantener el óptimo funcionamiento de tu negocio virtual. Nuestro equipo se encargará de evitar problemas futuros y solventar los problemas inesperados para mantener tu página web funcionando las 24 horas del día.</p>
                         <p class="text-justify mt-3">Recibirás las <b> últimas actualizaciones de WordPress, PrestaShops, plugins </b> y demás, sin mencionar que realizamos copias de seguridad periódicas. Jamusa se encargará de la optimización para la carga rápida de tu página y si es necesario, también nos haremos cargo de la migración de servidores.</p>
                         <div class="box-corner bord-top shadow mt-4">

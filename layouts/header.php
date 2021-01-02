@@ -9,7 +9,7 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll active" href="index.php">Inicio</a>
+            <a class="nav-link js-scroll active" href="http://localhost/jamusa.es/">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#precios">Precios</a>
@@ -21,13 +21,13 @@
             <a class="nav-link js-scroll" href="hosting-para-web.php">Hosting</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#">Blog</a>
+            <a class="nav-link js-scroll" href="blog.php">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#">Portfolio</a>
+            <a class="nav-link js-scroll" href="trabajos-realizados.php">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contacto">Contacto</a>
+            <a class="nav-link js-scroll" href="contacto.php">Contacto</a>
           </li>
         </ul>
       </div>

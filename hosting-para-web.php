@@ -38,15 +38,13 @@
 
 
     <!-- Cabecera  -->
-    <div id="home" class="intro route bg-image">
-        <div id="particles_background">
-        </div>
-        <div class="overlay-itro bg-degraded"></div>
+    <div class="intro intro-single route">
+        <div class="overlay-mf"></div>
         <div class="intro-content display-table">
             <div class="table-cell">
                 <div class="container">
-                    <h2 class="intro-title mt-5">Servicio Premium de Hosting</h2>
-                    <ul class="text-white fw-600 list-none fsz-2">
+                    <h2 class="intro-title mb-4">Servicio Premium de Hosting</h2>
+                    <ul class="text-white fw-600 list-none">
                         <li>Hosting web en España de alta velocidad con discos SSD.</li>
                         <li>Totalmente administrado, con panel de control Plesk Obsidian. </li>
                         <li>Dominio y certificado SSL gratuito con cualquier plan de hosting. </li>
@@ -274,7 +272,7 @@
                     <p><b>Nuestro servicio de hosting te garantiza un funcionamiento activo las 24 horas del día</b>, los 7 días a la semana, los 365 días del año. Una caída del servidor puede traer graves consecuencias como pérdida de información y de clientes potenciales y aunque el fallo del servicio sea de 5 minutos, puede traer graves consecuencias.</p>
                     <p>Es por eso que <b>nuestro hosting con dominio propio viene disponible en los diferentes paquetes</b> que te ofrecemos, para que tu proyecto web esté en funcionamiento desde el primer momento que esté terminado, hasta que comiences a subir contenido. Incluso cuando tengas que renovarlo evitarás inconvenientes de posibles fallos y caídas.</p>
                     <h3>¿Qué ventajas ofrece el servicio hosting de Jamusa?</h3>
-                    <p><b>Los servidores de alojamiento</b> con los que trabajamos en Jamusa tienen una gran cantidad de ventajas para tu proyecto web, para que puedas sacarle el máximo provecho a cada segmento de tu página, ya sea que estés navegando en ella o no.  Ahora bien, vamos a mencionar las ventajas de nuestro hosting profesional económico:</p>
+                    <p><b>Los servidores de alojamiento</b> con los que trabajamos en Jamusa tienen una gran cantidad de ventajas para tu proyecto web, para que puedas sacarle el máximo provecho a cada segmento de tu página, ya sea que estés navegando en ella o no. Ahora bien, vamos a mencionar las ventajas de nuestro hosting profesional económico:</p>
                     <h3>Migración</h3>
                     <p>¿Tienes tu página alojada en un servidor y quieres uno nuevo? En Jamusa te ofrecemos el servicio de migración incluido con cualquiera de nuestros paquetes, para que continúes <b>con tu proyecto web en un servidor de mayor optimización, capacidad, rapidez, seguridad, y estabilidad.</b></p>
                     <h3>Estabilidad de la página</h3>
