@@ -34,6 +34,10 @@
             margin-right: 0;
             margin-left: 0;
         }
+
+        .block-heading {
+            margin-bottom: 15px;
+        }
     </style>
 
     <!-- =======================================================
@@ -150,8 +154,9 @@
 
 
     <!-- Tabla de precios -->
-    <section id="precios" class="pricing-table">
-        <div class="container mt-4">
+    <div id="precios" class="invisible">.</div>
+    <section id="" class="pricing-table">
+        <div class="container">
             <div class="block-heading">
                 <h2>Nuestras tarifas de mantenimiento web</h2>
                 <p class="h5">Relación calidad precio imbatible</p>
@@ -175,8 +180,8 @@
                             <h4><span class="feature"></span><i class="fas fa-check"></i> 1 Hora de desarrollo web al mes</h4>
                             <h4><span class="feature">No incluye</span></h4>
                             <h4><span class="feature"></span><i class="fas fa-times"></i> Publicar nuevos productos</h4>
-                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones Plugins o Módulos Premium</h4>
-                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones Plantillas Premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones plugins o módulos premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones plantillas premium</h4>
                         </div>
                         <div class="price">
                             <h4>39€</h4>
@@ -203,8 +208,8 @@
                             <h4><span class="feature"></span><i class="fas fa-check"></i> 2 Horas de desarrollo web al mes</h4>
                             <h4><span class="feature"></span><i class="fas fa-check"></i> 30 Productos nuevos al mes</h4>
                             <h4><span class="feature"> No incluye</span></h4>
-                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones Plugins o Módulos Premium</h4>
-                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones Plantillas Premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones plugins o módulos premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-times"></i> Actualizaciones plantillas premium</h4>
                         </div>
                         <div class="price">
                             <h4>69€</h4>
@@ -229,9 +234,9 @@
                             <h4><span class="feature"></span><i class="fas fa-check"></i> Optimización de velocidad</h4>
                             <h4><span class="feature"></span><i class="fas fa-check"></i> 3 Horas de desarrollo web al mes</h4>
                             <h4><span class="feature"></span><i class="fas fa-check"></i> 50 Productos nuevos al mes</h4>
-                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones Plugins o Módulos Premium</h4>
-                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones Plantillas Premium</h4>
-                            <h4><span class="feature"></span><i class="fas fa-check"></i> 1 Hora de Ideas y Mejoras Web</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones plugins o módulos premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> Actualizaciones plantillas premium</h4>
+                            <h4><span class="feature"></span><i class="fas fa-check"></i> 1 Hora de ideas y mejoras web</h4>
                         </div>
                         <div class="price">
                             <h4>109€</h4>
@@ -248,9 +253,9 @@
     <!-- FAQ -->
     <section class="my-5">
         <div class="container">
-        <div class="block-heading">
-                <h2>Nuestras tarifas de mantenimiento web</h2>
-                <p class="h5">Relación calidad precio imbatible</p>
+            <div class="block-heading">
+                <h2>Preguntas y respuestas frecuentes</h2>
+                <p class="h6">Estas es la recopilación de las preguntas que recibimos frecuentemente, si tienes alguna que no aparezca aquí no dudes en contactarnos y estaremos encantado de atenderte.</p>
             </div>
             <div class="row">
                 <div class="col-md-3 col-md-6-fix row align-items-center">
@@ -261,29 +266,87 @@
                     <div class="col-sm-12 mt-4">
                         <div class="accordion bg-white" id="accordionExample">
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="dominio">
+                                <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        * Hosting + Dominio incluido
+                                        ¿Proporcionamos mantenimiento de hosting?
                                     </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="dominio" data-parent="#accordionExample">
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p><b>* Jamusa te ofrece gratis los domininios .es .com .info .eu .net y .org </b>durante el primer año incluyendo el pack de hosting de 2GB de capacidad y 60GB de transferencia mensual. Finalizado dicho año podrás abonar el plan de hosting que más se ajuste a tus necesidades.</p>
-                                        <p>Esta oferta no es válida si requieres de un proyecto con mayores prestaciones, por lo que se hará una evaluación de las necesidades y se procederá a la <b> facturación del alojamiento personalizado.</b></p>
-                                        <p>Además, <b> las cuentas de correo electrónicos serán ilimitadas </b> si el cliente decide utilizar nuestro servicio de hosting.</p>
+                                        <p><b>Nuestros planes de alojamiento incluyen el mantenimiento básico, </b> pero esto no aplica para un hosting externo que hayas contratado por otras empresas, sin embargo, para gozar de nuestro mantenimiento puedes solicitar el servicio de migración.</p>
+                                        <p>Gracias a nuestro alojamiento te proporcionaremos los beneficios de <b> mantenimiento, copia de seguridad, soporte y actualizaciones </b> para tu sitio alojado en WordPress. En caso de no usar nuestro servicio hosting, trabajaremos con tu proveedor para solventar cualquier problema técnico o derivado de tu alojamiento.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        ** Carga inicial de 30 productos
+                                        ¿Importa donde esté alojada mi página web?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p><b>** Te garantizamos la carga de 30 productos de manera gratuita</b> y sin coste adicional para que tu página web comience a trabajar. Luego te formaremos por medio de tutoriales para que seas tú mismo quien cargue los productos.</p>
-                                        <p>Todas las páginas adicionales que solicites (Diseño Web Premium y Tienda Online) <b> serán gratuitas si desarrollas y nos envías el contenido. </b> Si deseas que lo desarrollemos nosotros, añadiremos <b> páginas adicionales por un importe de 40€.</b></p>
+                                        <p>Nuestro servicio <b> abarca la mayoría de los proveedores de hosting, </b> aunque haya unos mejores que otros (no mencionaremos nombres). Si existe un fallo, trabajaremos con tu proveedor para garantizar y ofrecer los mejores servicios a través de ellos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        ¿Puedo solicitar vuestros servicios si no tengo un sitio WordPress o Prestashop?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Desafortunadamente no, Jamusa actualmente sólo trabaja con páginas web cuyos sitios estén basados en los <b> CMS WordPress y/o PrestaShop. </b></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        ¿Estoy obligado a cumplir alguna permanencia?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>No, debido a que nuestro servicio es mensual y no hay contratos previos. <b> Puedes cancelar en cualquier momento </b> nuestro servicio de mantenimiento web.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        ¿Qué métodos de pago acepta Jamusa?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>En Jamusa actualmente aceptamos: <b> Transferencias Bancarias y Bizum </b> como métodos de pago.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        ¿Ofrecen el servicio de migración gratuito?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>¡Por supuesto! La migración es uno de nuestros servicios si tiene otro alojamiento y quiere utilizar el de Jamusa. <b> Todos los planes de hosting incluyen migración gratuita, </b> si quieres hacer la migración a un hosting externo a Jamusa contáctanos para incluirla en el paquete y realizarla por un costo adicional en un único pago.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        ¿Cuáles son nuestros precios por hora?
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Los planes no tienen un tiempo de desarrollo específico, por lo que nuestra tarifa para el desarrollo es de <b>15€/hora.</b></p>
                                     </div>
                                 </div>
                             </div>
@@ -298,6 +361,28 @@
         </div>
     </section>
     <!-- .foto + descripción mantenimiento web -->
+
+
+    <!-- Banner SEO -->
+    <section>
+        <div class="container">
+            <div class="row my-4">
+                <div class="box-corner bord-left shadow text-justify">
+                    <h2>Beneficios del mantenimiento web</h2>
+                    <p><b>El mantenimiento de tu web es vital</b> para su correcto funcionamiento porque de lo contrario puede dejar de ser rápido y afectar la experiencia del usuario, es decir, tu lector y posible cliente.</p>
+                    <h3>Versiones previas de respaldo</h3>
+                    <p>Una versión de respaldo te permite <b> restaurar y mantener el funcionamiento de tu página</b> en caso de un error durante la edición o incluso luego de un ataque de un hacker.</p>
+                    <h3>Eliminación de código basura</h3>
+                    <p>El código basura se crea al <b> instalar y desinstalar diferentes plugins </b> que termines por descartar, éstos dejan tablas en la base de datos y otros archivos que permanecen después de su desinstalación, lo que termina por ralentizar tu página.</p>
+                    <h3>Máxima velocidad</h3>
+                    <p>El mantenimiento mantendrá <b>la velocidad de carga de la página, </b> lo que te permite ofrecer una mejor experiencia a todos tus usuarios.</p>
+                    <h3>Protección contra ataques</h3>
+                    <p>Los ataques de hackers pueden ser frecuentes, por lo que es necesario contar con el mantenimiento para <b> detectar posibles fallos de seguridad </b> y solucionarlos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .banner de descuento -->
 
 
     <?php include './layouts/footer.php' ?>

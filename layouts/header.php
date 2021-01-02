@@ -15,10 +15,10 @@
             <a class="nav-link js-scroll" href="#precios">Precios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="mantenimiento.php">Mantenimiento</a>
+            <a class="nav-link js-scroll" href="mantenimiento-web-wordpress-y-prestashop.php">Mantenimiento</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#">Hosting</a>
+            <a class="nav-link js-scroll" href="hosting-para-web.php">Hosting</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#">Blog</a>

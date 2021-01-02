@@ -22,10 +22,10 @@
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <!-- Particles CSS -->
+  <!-- Main Stylesheet File -->
   <link rel="stylesheet" media="screen" href="css/style.css">
 
-  <!-- Main Stylesheet File -->
+  <!-- Particles CSS -->
   <link href="lib/particles/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -49,8 +49,8 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="intro-title mt-5">Webs económicas que <br> te encantarán </h2>
-          <p class="intro-subtitle"><span class="text-slider-items">Tiendas Online,Blogs, Foros, Revistas,Landing Page, </span><strong class="text-slider"></strong></p>
+        <h2 class="intro-title mt-5">Webs económicas que <br> te encantarán </h2>
+          <p style="margin-bottom: -2rem;" class="intro-subtitle"><span class="text-slider-items">Tiendas Online,Blogs, Foros, Revistas,Landing Page, </span><strong class="text-slider"></strong></p>
         </div>
       </div>
     </div>
@@ -170,7 +170,6 @@
             <div class="heading">
               <h3>Diseño web profesional</h3>
             </div>
-            <p></p>
             <div class="features">
               <h4><span class="feature">Hasta 5 secciones</span></h4>
               <h4><span class="feature">*Dominio + alojamiento + correo: </span>gratis durante el primer año</h4>
@@ -192,7 +191,6 @@
             <div class="heading">
               <h3>Diseño web premium</h3>
             </div>
-            <p></p>
             <div class="features">
               <h4><span class="feature">Hasta 10 secciones</span></h4>
               <h4><span class="feature">*Dominio + alojamiento + correo: </span>gratis durante el primer año</h4>
@@ -213,7 +211,6 @@
             <div class="heading">
               <h3>Diseño web de tienda online</h3>
             </div>
-            <p></p>
             <div class="features">
               <h4><span class="feature">**Carga inicial 30 productos</span></h4>
               <h4><span class="feature">*Dominio + alojamiento + correo: </span>gratis durante el primer año</h4>
@@ -234,12 +231,12 @@
       <div class="col-sm-12 mt-4">
         <div class="accordion bg-white" id="accordionExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="dominio">
+            <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 * Hosting + Dominio incluido
               </button>
             </h2>
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="dominio" data-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="accordion-body">
                 <p><b>* Jamusa te ofrece gratis los domininios .es .com .info .eu .net y .org </b>durante el primer año incluyendo el pack de hosting de 2GB de capacidad y 60GB de transferencia mensual. Finalizado dicho año podrás abonar el plan de hosting que más se ajuste a tus necesidades.</p>
                 <p>Esta oferta no es válida si requieres de un proyecto con mayores prestaciones, por lo que se hará una evaluación de las necesidades y se procederá a la <b> facturación del alojamiento personalizado.</b></p>
@@ -286,7 +283,6 @@
             </span>
             <p class="text-justify mt-2">Jamusa te ofrece un servicio de páginas web baratas de primera calidad e ideal para aquellas personas que quieren <b> llevar su empresa, marca o negocio al entorno digital.</b> Conocemos la importancia de que PYMES y Autónomos tengan una mayor presencia en una gran variedad de portales y medios que frecuentan sus clientes, por lo que trabajamos con páginas web de primera calidad con un servicio óptimo garantizado.</p>
             <p class="text-justify">¿Quieres realizar la inversión pero te preocupa el financiamiento? Tranquilo, <b>nuestras páginas web económicas</b> están diseñadas para aquellos emprendedores que no pueden costear grandes inversiones, pero que aún así están buscando un desarrollo de calidad en el funcionamiento de su página web. No hipoteques tu negocio para llegar al entorno digital, contáctanos y en Jamusa te ayudaremos a incrementar tus ganancias en Internet. Nuestros clientes nos avalan, comprueba nuestros <a href="#">trabajos realizados.</a></p>
-            <div class="line-blue"></div>
           </div>
         </div>
       </div>
@@ -320,7 +316,7 @@
               </div>
             </div>
           </div>
-          <div class="line-gray-mrg"></div>
+          <div class="line-purple-mrg"></div>
           <!-- Bloque 2 -->
           <div class="row">
             <div class="col-md-6 col-md-6-fix row align-items-center">
@@ -341,7 +337,7 @@
               <img src="./img/wordpress-prestashop.png" alt="El mejor precio de tu pagina web barata" class="img-thumbnail">
             </div>
           </div>
-          <div class="line-gray-mrg"></div>
+          <div class="line-purple-mrg"></div>
           <!-- Bloque 3 -->
           <div class="row">
             <div class="col-md-6 col-md-6-fix row align-items-center">

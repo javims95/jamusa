@@ -9,6 +9,24 @@
 //--//-->   FONTS
 ======================================*/
 
+/* Rubik */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/rubik/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FWUU1Z4Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/rubik/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FV0U1.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* Montserrat */
 @font-face {
   font-family: 'Montserrat';
@@ -65,10 +83,14 @@
 
 body {
   background-color: #eee;
-  color: #333; 
+  color: #333;
 }
 
-p, span, text, h4, h5, h6 {
+h1, h2 {
+  font-family: 'Rubik', sans-serif;
+}
+
+p, span, text, h4, h5, h6, ul, li {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
@@ -376,41 +398,61 @@ b, strong {
 //--//-->   ATAJOS
 ======================================*/
 
-.line-blue {
+/* Lineas caja */
+.bord-top {
+  border-top: 3px solid #970FF2;
+}
+
+.bord-bottom {
+  border-bottom: 3px solid #970FF2;
+}
+
+.bord-left {
+  border-left: 3px solid #970FF2;
+}
+
+.shadow {
+  box-shadow: 0 8px 17px 2px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
+}
+
+.line-purple {
   width: 100px;
   height: 2px;
   background-color: #970FF2;
-  margin: 0 auto;
+  margin: 15px auto 0 auto;
 }
 
-.line-gray-mrg {
-  width: 100px;
-  height: 2px;
-  background-color: #970FF2;
-  margin: 2rem auto 2rem auto;
-}
-
-.line-custom {
-  width: 100px;
+.line-purple-mrg {
+  width: 200px;
   height: 2px;
   background-color: #970FF2;
   margin: 2rem auto 2rem auto;
 }
 
 .text-justify {
-  text-align: justify;
+  text-align: justify !important;
 }
 
+/* Colores */
 .color-primary {
   color: #0078ff;
 }
 
+.invisible {
+  color: transparent;
+}
+
+/* Background */
 .bg-purple {
   background-color: #970FF2;
 }
 
-/* Títulos */
+.bg-degraded {
+  background: #0078ff;
+background: radial-gradient(circle, #970FF2 0%, #0078ff 100%);
+}
 
+/* Títulos */
 .title-a {
   font-size: 3rem;
   font-weight: 600;
@@ -419,15 +461,33 @@ b, strong {
 
 /* Font-weight */
 .fw-400 {
-font-weight: 400;
+font-weight: 400 !important;
 }
 
 .fw-600 {
-font-weight: 600;
+font-weight: 600 !important;
 }
 
 .fw-700 {
-  font-weight: 700;
+  font-weight: 700 !important;
+}
+
+/* Font size */
+.fsz-2 {
+  font-size: 1.2rem;
+}
+
+.fsz-3 {
+  font-size: 2rem;
+}
+
+/* Margin y padding */
+.mt-10 {
+  margin-top: 5rem !important;
+}
+
+.list-none {
+  list-style: none;
 }
 
 /*======================================
@@ -770,12 +830,7 @@ font-weight: 600;
 .intro .intro-title {
   color: #fff;
   font-weight: 600;
-  font-size: 3rem;
-}
-
-.intro .intro-subtitle {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: calc(1vw + 2vh + 2vmin);
 }
 
 .intro .text-slider-items {
@@ -934,6 +989,7 @@ li.nav-item {
   font-size: 45px;
   text-align: center;
   color: #0078ff;
+  font-weight: 600;
 }
 
 .pricing-table .buy-now button {
@@ -1020,18 +1076,6 @@ li.nav-item {
   text-align: center;
 }
 
-.bord-top {
-  border-top: 3px solid #970FF2;
-}
-
-.bord-bottom {
-  border-bottom: 3px solid #970FF2;
-}
-
-.shadow {
-  box-shadow: 0 8px 17px 2px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2);
-}
-
 /* Tabla precios */
 
 i.fas.fa-times {
@@ -1047,6 +1091,16 @@ i.fas.fa-check {
 margin-top: 20px;
   }
 }
+
+.accordion-item .accordion-button{
+  text-align: left;
+}
+
+/*======================================
+//--//-->   HOSTING
+======================================*/
+
+
 
 /*======================================
 //--//-->   PORTFOLIO
@@ -1434,7 +1488,7 @@ margin-top: 20px;
     font-size: 3rem;
   }
   .intro .intro-subtitle {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .intro-single .intro-title {
     font-size: 3.5rem;
