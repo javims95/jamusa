@@ -365,50 +365,6 @@
   <!-- .bloques Imagen + texto -->
 
 
-  <!-- Contacto -->
-  <section class="pt-5 pb-5 card-featured">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-sm-6">
-          <div class="contact-mf">
-            <div id="contacto" class="box-shadow-full">
-              <div class="row">
-                <div class="title-box-2">
-                  <h5 class="title-left">
-                    Contáctanos
-                  </h5>
-                </div>
-                <form action="" method="post" role="form" class=" mt-4">
-                  <div class="form-group mb-3">
-                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="email" class="form-control" id="mail" placeholder="Email" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="text" class="form-control" id="asunto" placeholder="Asunto" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje" required></textarea>
-                  </div>
-                  <div class="form-check mt-1">
-                    <input type="checkbox" class="form-check-input" id="privacidad" required>
-                    <label class="form-check-label" for="exampleCheck1">He leido y acepto la <a href="#">política de privacidad</a></label>
-                  </div>
-                  <div class="col-md-12 mt-3">
-                    <button type="submit" class="button btn btn-primary btn-lg">Enviar mensaje</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- .contacto -->
-
-
   <?php include './layouts/footer.php' ?>
 
 
