@@ -1,3 +1,9 @@
+<?php
+include "php/conexion.php";
+$portfolio = $conexion->query("SELECT * FROM portfolio ORDER BY id DESC") or die($conexion->error);
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -55,30 +61,38 @@
     <section id="work" class="portfolio-mf sect-pt4">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="work-box">
-                        <a data-fancybox data-type="iframe" data-src="http://deveva.es" href="javascript:;">
-                            <div class="work-img">
-                                <img src="img/work-1.jpg" alt="" class="img-fluid">
-                            </div>
-                            <div class="work-content">
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <h2 class="w-title">Lorem impsum dolor</h2>
-                                        <div class="w-more">
-                                            <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                <?php
+                while ($fila = mysqli_fetch_array($portfolio)) {
+
+                    $fecha = $fila['fecha'];
+                    $format_fecha = date("d-M-Y",strtotime($fecha));
+                ?>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a data-fancybox data-type="iframe" data-src="<?php echo $fila['enlace']; ?>" href="javascript:;">
+                                <div class="work-img">
+                                    <img src="img/portfolio/<?php echo $fila['imagen']; ?>" alt="<?php echo $fila['alt']; ?>" class="img-fluid">
+                                </div>
+                                <div class="work-content">
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <h2 class="w-title"><?php echo $fila['titulo']; ?></h2>
+                                            <div class="w-more">
+                                                <span class="w-ctegory"><?php echo $fila['categoria']; ?></span> / 
+                                                <span class="w-date"><?php echo $format_fecha ?></span>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="w-like">
-                                            <span class="ion-ios-plus-outline"></span>
+                                        <div class="col-sm-4">
+                                            <div class="w-like">
+                                                <span class="ion-ios-plus-outline"></span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
-                </div>
+                <?php } ?>
                 <!-- <div class="col-md-4">
                     <div class="work-box">
                         <a href="img/work-2.jpg" data-lightbox="gallery-mf">
