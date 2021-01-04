@@ -3,30 +3,37 @@ include "conexion.php";
 
 if (
     isset($_POST['enlace'])  &&  isset($_POST['titulo']) &&  isset($_POST['categoria'])   &&  isset($_POST['fecha'])
-    &&  isset($_POST['nombre_imagen']) &&  isset($_POST['alt'])
+    &&  isset($_POST['nombre_imagen']) &&  isset($_POST['alt']) 
 ) {
 
-    $carpeta = "../img/portfolio/";
-    $nombreFinal = $_POST['nombre_imagen'];
-    $nombre = $_FILES['imagen']['name'];
+    $directorio = "../img/portfolio/";
+    $aleatorio = mt_rand(100, 999);
+    $nombre = $_POST['nombre_imagen'];
+    $ruta = $directorio . $nombre;
 
+    $guardado = $_FILES['imagen']['tmp_name'];
 
-    if (move_uploaded_file($_FILES['imagen']['tmp_name'], $carpeta . $nombreFinal)) {
-        $conexion->query("insert into portfolio 
-                (id,enlace,titulo,categoria,fecha,imagen,alt) values
-                (
-                    '',
-                    '" . $_POST['enlace'] . "',
-                    '" . $_POST['titulo'] . "',
-                    '" . $_POST['categoria'] . "',
-                    '" . $_POST['fecha'] . "',
-                    '" . $_POST['nombre_imagen'] . "',
-                    '" . $_POST['alt'] . "'
-                )   ") or die($conexion->error);
-        // header("Location: ../admin-jms/nuevo-portfolio.php?success");
+    if (!file_exists($directorio)) {
+        mkdir($directorio, 0777, true);
+        if (file_exists($directorio)) {
+
+            if (move_uploaded_file($guardado, $directorio . $nombre)) {
+                echo "Archivo guardado con exito";
+            } else {
+                echo "Archivo no se pudo guardar";
+            }
+        }
     } else {
-        // header("Location: ../admin-jms/nuevo-portfolio.php?error=No se pudo subir la imagen");
+        if (move_uploaded_file($guardado, $directorio . $nombre)) {
+            echo "Archivo guardado con exito";
+        } elseif (move_uploaded_file($guardado, $directorio . $nombre)) {
+            echo "Archivo guardado con exito";
+        } else {
+            echo "Archivo no se pudo guardar";
+        }
+
+        var_dump($ruta);
     }
 } else {
-    // header("Location: ../admin-jms/nuevo-portfolio.php?error=Por favor rellene todos los campos");
+    header("Location: ../admin-jms/nuevo-portfolio.php?error=Por favor rellene todos los campos");
 }

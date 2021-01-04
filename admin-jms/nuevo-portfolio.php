@@ -60,7 +60,7 @@ if (!isset($_SESSION['datos_login'])) {
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form method="POST" action="../php/insertar-portfolio.php">
+                                <form action="../php/insertar-portfolio.php" method="post" enctype="multipart/form-data">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Enlace</label>
@@ -92,17 +92,9 @@ if (!isset($_SESSION['datos_login'])) {
                                         <h1 class="h3 text-center">Imagen</h1>
                                         <hr>
                                         <div class="form-group">
-                                            <label for="exampleInputFile">Imagen</label>
-                                            <div class="input-group">
-                                                <div class="custom-file">
-                                                    <input id="imagen" name="imagen" type="file" accept=".jpg,.png" class="custom-file-input">                                                    
-                                                    <label class="custom-file-label" for="exampleInputFile">Subir fotografía</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Upload</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            <label for="imagen">Imagen</label>
+                                            <input name="imagen" type="file" class="form-control-file" id="imagen">
+                                        </div>                                        
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Nombre de la imagen</label>
                                             <input id="nombre_imagen" name="nombre_imagen" type="text" class="form-control" placeholder="wordpress.jpg">
@@ -165,7 +157,7 @@ if (!isset($_SESSION['datos_login'])) {
                     $('#datetimepicker1').datetimepicker({
                         defaultDate: new Date(),
                         time: "far fa-clock",
-                    });                    
+                    });
                 });
             </script>
 
