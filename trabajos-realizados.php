@@ -26,16 +26,6 @@
     <!-- Style CSS -->
     <link rel="stylesheet" media="screen" href="css/style.css">
 
-    <style>
-        .row {
-            margin-right: 0;
-            margin-left: 0;
-        }
-
-        .block-heading {
-            margin-bottom: 15px;
-        }
-    </style>
 
     <!-- =======================================================
     Theme Name: Jamusa
@@ -89,7 +79,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="work-box">
                         <a href="img/work-2.jpg" data-lightbox="gallery-mf">
                             <div class="work-img">
@@ -208,7 +198,7 @@
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>

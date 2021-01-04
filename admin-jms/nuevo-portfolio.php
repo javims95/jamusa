@@ -5,6 +5,7 @@ include "../php/conexion.php";
 if (!isset($_SESSION['datos_login'])) {
     header("Location: ../index.php");
 }
+$arregloUsuario = $_SESSION['datos_login'];
 
 ?>
 
@@ -70,37 +71,39 @@ if (!isset($_SESSION['datos_login'])) {
                                             <label for="exampleInputEmail1">Título</label>
                                             <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Jamusa.es">
                                         </div>
-                                        <div class="form-group">
-                                            <label>Categoría</label>
-                                            <select id="categoria" name="categoria" class="form-control">
-                                                <option>option 1</option>
-                                                <option>option 2</option>
-                                                <option>option 3</option>
-                                                <option>option 4</option>
-                                                <option>option 5</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
-                                                <input id="fecha" name="fecha" type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1" />
-                                                <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
-                                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <label>Categoría</label>
+                                                    <select id="categoria" name="categoria" class="form-control">
+                                                        <option>Tienda online</option>
+                                                        <option>Blog</option>
+                                                        <option>Foro</option>
+                                                        <option>Landing page</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="form-group">
+                                                    <label>Fecha y hora</label>
+                                                    <input class="form-control" type="datetime-local" id="fecha" name="fecha">
                                                 </div>
                                             </div>
                                         </div>
+
                                         <br>
                                         <h1 class="h3 text-center">Imagen</h1>
                                         <hr>
                                         <div class="form-group">
                                             <label for="imagen">Imagen</label>
                                             <input name="imagen" type="file" class="form-control-file" id="imagen">
-                                        </div>                                        
+                                        </div>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Nombre de la imagen</label>
                                             <input id="nombre_imagen" name="nombre_imagen" type="text" class="form-control" placeholder="wordpress.jpg">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1">Descripción de la imagen</label>
+                                            <label for="exampleInputEmail1">Descripción de la imagen (alt)</label>
                                             <input id="alt" name="alt" type="text" class="form-control" placeholder="Mantenimiento web prestashop">
                                         </div>
                                         <!-- /.card-body -->
@@ -108,6 +111,7 @@ if (!isset($_SESSION['datos_login'])) {
                                         <div class="card-footer">
                                             <button type="submit" class="btn btn-primary btn-block">Submit</button>
                                         </div>
+                                    </div>
                                 </form>
                             </div>
                             <!-- /.card -->
@@ -138,7 +142,7 @@ if (!isset($_SESSION['datos_login'])) {
             <!-- daterangepicker -->
             <script src="plugins/moment/moment.min.js"></script>
             <script src="plugins/daterangepicker/daterangepicker.js"></script>
-            <!-- Tempusdominus DatePicker -->
+            <!-- Tempusdominus DatePicker  -->
             <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
             <!-- Summernote -->
             <script src="plugins/summernote/summernote-bs4.min.js"></script>
@@ -150,16 +154,6 @@ if (!isset($_SESSION['datos_login'])) {
             <script src="dist/js/demo.js"></script>
             <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
             <script src="dist/js/pages/dashboard.js"></script>
-
-            <!-- Date Time Picker - Fecha y hora -->
-            <script type="text/javascript">
-                $(function() {
-                    $('#datetimepicker1').datetimepicker({
-                        defaultDate: new Date(),
-                        time: "far fa-clock",
-                    });
-                });
-            </script>
 
 </body>
 
