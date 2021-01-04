@@ -50,7 +50,7 @@ $arregloUsuario = $_SESSION['datos_login'];
         <div class="content-wrapper">
 
             <!-- Main content -->
-            <section class="content">
+            <section class="content mt-5">
                 <div class="container-fluid">
                     <div class="row">
                         <!-- left column -->

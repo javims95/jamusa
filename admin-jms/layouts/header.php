@@ -35,7 +35,7 @@
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Javier Muñoz</a>
         </div>
       </div>    
 
@@ -46,7 +46,31 @@
                with font-awesome or any other icon font library -->
           <li class="nav-item menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <i class="nav-icon fas fa-comments"></i>
+              <p>
+                Blog
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="./ver-portfolio.php" class="nav-link">
+                  <i class="far fa-eye nav-icon"></i>
+                  <p>Ver blog</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="./nuevo-portfolio.php" class="nav-link">
+                  <i class="fas fa-plus nav-icon"></i>
+                  <p>Nuevo post</p>
+                </a>
+              </li>              
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-clipboard"></i>
               <p>
                 Portfolio
                 <i class="right fas fa-angle-left"></i>
@@ -54,25 +78,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./ver-portfolio.php" class="nav-link active">
-                  <i class="far fa-circle nav-icon"></i>
+                <a href="./ver-portfolio.php" class="nav-link">
+                  <i class="far fa-eye nav-icon"></i>
                   <p>Ver portfolios</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./nuevo-portfolio.php" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Crear nuevo</p>
+                  <i class="fas fa-plus nav-icon"></i>
+                  <p>Nuevo portfolio</p>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
-                </a>
-              </li>
+              </li>              
             </ul>
-          </li>        
+          </li>  
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
