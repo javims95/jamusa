@@ -33,7 +33,7 @@ if (!isset($_SESSION['datos_login'])) {
     <!-- overlayScrollbars -->
     <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Daterange picker -->
-
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
 
@@ -46,16 +46,6 @@ if (!isset($_SESSION['datos_login'])) {
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <section class="content-header">
-                <div class="container-fluid">
-                    <div class="row mb-2">
-                        <div class="col-sm-6">
-                            <h1>Nuevo portfolio</h1>
-                        </div>
-                    </div>
-                </div><!-- /.container-fluid -->
-            </section>
 
             <!-- Main content -->
             <section class="content">
@@ -66,52 +56,47 @@ if (!isset($_SESSION['datos_login'])) {
                             <!-- general form elements -->
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Quick Example</h3>
+                                    <h3 class="card-title">Nuevo portfolio</h3>
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form>
+                                <form method="POST" action="../php/insertar-portfolio.php">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Enlace</label>
-                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="http://jamusa.es/">
+                                            <input type="text" class="form-control" id="enlace" name="enlace" placeholder="http://jamusa.es/">
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Título</label>
-                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Jamusa.es">
+                                            <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Jamusa.es">
                                         </div>
-                                        <div class="row">
-                                            <div class="col">
-                                                <div class="form-group">
-                                                    <label>Categoría</label>
-                                                    <select class="form-control">
-                                                        <option>option 1</option>
-                                                        <option>option 2</option>
-                                                        <option>option 3</option>
-                                                        <option>option 4</option>
-                                                        <option>option 5</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="form-group">
-                                                    <label>Date:</label>
-                                                    <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
-                                                        <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1" />
-                                                        <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
-                                                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                                                        </div>
-                                                    </div>
+                                        <div class="form-group">
+                                            <label>Categoría</label>
+                                            <select id="categoria" name="categoria" class="form-control">
+                                                <option>option 1</option>
+                                                <option>option 2</option>
+                                                <option>option 3</option>
+                                                <option>option 4</option>
+                                                <option>option 5</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                                                <input id="fecha" name="fecha" type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1" />
+                                                <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
+                                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <br>
+                                        <h1 class="h3 text-center">Imagen</h1>
                                         <hr>
                                         <div class="form-group">
                                             <label for="exampleInputFile">Imagen</label>
                                             <div class="input-group">
                                                 <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                                    <input id="imagen" name="imagen" type="file" accept=".jpg,.png" class="custom-file-input">                                                    
+                                                    <label class="custom-file-label" for="exampleInputFile">Subir fotografía</label>
                                                 </div>
                                                 <div class="input-group-append">
                                                     <span class="input-group-text">Upload</span>
@@ -120,12 +105,16 @@ if (!isset($_SESSION['datos_login'])) {
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputEmail1">Nombre de la imagen</label>
-                                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Título">
+                                            <input id="nombre_imagen" name="nombre_imagen" type="text" class="form-control" placeholder="wordpress.jpg">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Descripción de la imagen</label>
+                                            <input id="alt" name="alt" type="text" class="form-control" placeholder="Mantenimiento web prestashop">
                                         </div>
                                         <!-- /.card-body -->
 
                                         <div class="card-footer">
-                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                            <button type="submit" class="btn btn-primary btn-block">Submit</button>
                                         </div>
                                 </form>
                             </div>
@@ -157,7 +146,7 @@ if (!isset($_SESSION['datos_login'])) {
             <!-- daterangepicker -->
             <script src="plugins/moment/moment.min.js"></script>
             <script src="plugins/daterangepicker/daterangepicker.js"></script>
-            <!-- Tempusdominus Bootstrap 4 -->
+            <!-- Tempusdominus DatePicker -->
             <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
             <!-- Summernote -->
             <script src="plugins/summernote/summernote-bs4.min.js"></script>
@@ -170,17 +159,14 @@ if (!isset($_SESSION['datos_login'])) {
             <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
             <script src="dist/js/pages/dashboard.js"></script>
 
-            <script>
-                $(function () {
-                $('#datetimepicker1').datetimepicker({
-                    defaultDate: "11/1/2013",
-                    disabledDates: [
-                        new Date(2013, 11 - 1, 21),
-                        "11/22/2013 00:53"
-                    ]
+            <!-- Date Time Picker - Fecha y hora -->
+            <script type="text/javascript">
+                $(function() {
+                    $('#datetimepicker1').datetimepicker({
+                        defaultDate: new Date(),
+                        time: "far fa-clock",
+                    });                    
                 });
-            });
-                
             </script>
 
 </body>
