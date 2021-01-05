@@ -445,7 +445,7 @@ b, strong {
 /* Colores */
 
 .color-primary {
-  color: #0078ff;
+  color: #0078ff !important;
 }
 
 .invisible {
@@ -497,6 +497,10 @@ b, strong {
 
 .fsz-3 {
   font-size: 3rem;
+}
+
+.fsz-4 {
+  font-size: 4rem;
 }
 
 /* Font-family */
