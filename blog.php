@@ -25,17 +25,6 @@
     <!-- Style CSS -->
     <link rel="stylesheet" media="screen" href="css/style.css">
 
-    <style>
-        .row {
-            margin-right: 0;
-            margin-left: 0;
-        }
-
-        .block-heading {
-            margin-bottom: 15px;
-        }
-    </style>
-
     <!-- =======================================================
     Theme Name: Jamusa
     Theme URL: https://jamusa.es
@@ -68,7 +57,7 @@
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
+              <a href="blog-single.php"><img src="img/post-1.jpg" alt="" class="img-fluid"></a>
             </div>
             <div class="card-body">
               <div class="card-category-box">
@@ -76,7 +65,7 @@
                   <h6 class="category">Travel</h6>
                 </div>
               </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+              <h3 class="card-title"><a href="blog-single.php">See more ideas about Travel</a></h3>
               <p class="card-description">
                 Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
                 a pellentesque nec,
@@ -99,7 +88,7 @@
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
+              <a href="blog-single.php"><img src="img/post-2.jpg" alt="" class="img-fluid"></a>
             </div>
             <div class="card-body">
               <div class="card-category-box">
@@ -107,7 +96,7 @@
                   <h6 class="category">Web Design</h6>
                 </div>
               </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+              <h3 class="card-title"><a href="blog-single.php">See more ideas about Travel</a></h3>
               <p class="card-description">
                 Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
                 a pellentesque nec,
@@ -130,7 +119,7 @@
         <div class="col-md-4">
           <div class="card card-blog">
             <div class="card-img">
-              <a href="blog-single.html"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
+              <a href="blog-single.php"><img src="img/post-3.jpg" alt="" class="img-fluid"></a>
             </div>
             <div class="card-body">
               <div class="card-category-box">
@@ -138,7 +127,7 @@
                   <h6 class="category">Web Design</h6>
                 </div>
               </div>
-              <h3 class="card-title"><a href="blog-single.html">See more ideas about Travel</a></h3>
+              <h3 class="card-title"><a href="blog-single.php">See more ideas about Travel</a></h3>
               <p class="card-description">
                 Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis
                 a pellentesque nec,

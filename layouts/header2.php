@@ -1,6 +1,6 @@
-<nav class="navbar navbar-2 navbar-expand-lg fixed-top navbar-reduce" id="mainNav">
+<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top"><img id="logo" src="./img/logo.png" alt="logotipo" width="40" height="40">Jamusa</a>
+      <a class="navbar-brand js-scroll" href="#page-top"><img id="logo" src="../img/logo.png" alt="logotipo" width="40" height="40">Jamusa</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
         <span></span>
@@ -9,25 +9,25 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll active" href="index.php">Inicio</a>
+            <a class="nav-link js-scroll active" href="http://localhost/jamusa.es/">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#precios">Precios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="mantenimiento.php">Mantenimiento</a>
+            <a class="nav-link js-scroll" href="../mantenimiento-web-wordpress-y-prestashop.php">Mantenimiento</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#">Hosting</a>
+            <a class="nav-link js-scroll" href="../hosting-para-web.php">Hosting</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#">Blog</a>
+            <a class="nav-link js-scroll" href="../blog.php">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#">Portfolio</a>
+            <a class="nav-link js-scroll" href="../trabajos-realizados.php">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contacto">Contacto</a>
+            <a class="nav-link js-scroll" href="../contacto.php">Contacto</a>
           </li>
         </ul>
       </div>

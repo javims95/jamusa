@@ -54,13 +54,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./ver-portfolio.php" class="nav-link">
+                <a href="./ver-blog.php" class="nav-link">
                   <i class="far fa-eye nav-icon"></i>
                   <p>Ver blog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./nuevo-portfolio.php" class="nav-link">
+                <a href="./nuevo-blog.php" class="nav-link">
                   <i class="fas fa-plus nav-icon"></i>
                   <p>Nuevo post</p>
                 </a>

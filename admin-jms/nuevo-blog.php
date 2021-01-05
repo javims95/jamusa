@@ -7,7 +7,6 @@ if (!isset($_SESSION['datos_login'])) {
 }
 $arregloUsuario = $_SESSION['datos_login'];
 
-
 ?>
 
 <!DOCTYPE html>
@@ -56,61 +55,71 @@ $arregloUsuario = $_SESSION['datos_login'];
                         <!-- left column -->
                         <div class="col-md-12">
                             <!-- general form elements -->
-                            <div class="card card-primary">
+                            <div class="card card-info">
                                 <div class="card-header">
-                                    <h3 class="card-title">Nuevo portfolio</h3>
+                                    <h3 class="card-title">Nuevo post en el blog</h3>
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form action="../php/insertar-portfolio.php" method="post" enctype="multipart/form-data">
-                                    <div class="card-body">
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Enlace</label>
-                                            <input type="text" class="form-control" id="enlace" name="enlace" placeholder="http://jamusa.es/">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Título</label>
-                                            <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Jamusa.es">
-                                        </div>
+                                <form action="../php/insertar-blog.php" method="post" enctype="multipart/form-data">
+                                    <div class="card-body" style="background-color: #F1F1F1;">
                                         <div class="row">
-                                            <div class="col">
+                                            <!-- Columna grande izquierda -->
+                                            <div class="col-9">
                                                 <div class="form-group">
-                                                    <label>Categoría</label>
-                                                    <select id="categoria" name="categoria" class="form-control">
-                                                        <option>Tienda online</option>
-                                                        <option>Blog</option>
-                                                        <option>Foro</option>
-                                                        <option>Landing page</option>
-                                                    </select>
+                                                    <label for="exampleInputEmail1">Título</label>
+                                                    <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Configurar la url de seguimiento de GLS o ASM en Prestashop" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea id="summernote" name="editordata"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea hidden="hidden" id="content" name="content"></textarea>
+                                                </div>
+                                                <br>
+                                                <h1 class="h3 text-center">SEO</h1>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <label for="exampleInputEmail1">Title</label>
+                                                    <input id="title" name="title" type="text" class="form-control" placeholder="Jamusa - ¡El desarrollador de tu página web barata!">
                                                 </div>
                                             </div>
-                                            <div class="col">
+                                            <!-- Columna pequeña derecha -->
+                                            <div class="col-3">
                                                 <div class="form-group">
                                                     <label>Fecha y hora</label>
                                                     <input class="form-control" type="datetime-local" id="fecha" name="fecha">
                                                 </div>
+                                                <div class="form-group">
+                                                    <label>Categoría</label>
+                                                    <select id="categoria" name="categoria[]" multiple class="form-control" required>
+                                                        <option>Wordpress</option>
+                                                        <option>Prestashop</option>
+                                                        <option>CSS</option>
+                                                        <option>PHP</option>
+                                                        <option>Javascript</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="imagen">Imagen destacada</label>
+                                                    <input name="imagen" type="file" class="form-control-file" id="imagen">
+                                                </div>
                                             </div>
                                         </div>
 
-                                        <br>
-                                        <h1 class="h3 text-center">Imagen</h1>
-                                        <hr>
-                                        <div class="form-group">
-                                            <label for="imagen">Imagen</label>
-                                            <input name="imagen" type="file" class="form-control-file" id="imagen">
+                                        <div class="row">
+                                            <div class="col">
+                                            </div>
+                                            <div class="col">
+
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Nombre de la imagen</label>
-                                            <input id="nombre_imagen" name="nombre_imagen" type="text" class="form-control" placeholder="wordpress.jpg">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputEmail1">Descripción de la imagen (alt)</label>
-                                            <input id="alt" name="alt" type="text" class="form-control" placeholder="Mantenimiento web prestashop">
-                                        </div>
+
+
                                         <!-- /.card-body -->
 
                                         <div class="card-footer">
-                                            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                                            <button id="get_code" type="submit" class="btn btn-info btn-block">Submit</button>
                                         </div>
                                     </div>
                                 </form>
@@ -155,6 +164,22 @@ $arregloUsuario = $_SESSION['datos_login'];
             <script src="dist/js/demo.js"></script>
             <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
             <script src="dist/js/pages/dashboard.js"></script>
+
+            <script>
+                $('#summernote').summernote({
+                    placeholder: 'Hello Bootstrap 4',
+                    tabsize: 2,
+                    height: 300,
+                });
+                $('#summernote').summernote('fontName', 'Montserrat');
+
+
+
+                $("#get_code").click(function() {
+                    var code = $('#summernote').summernote('code');
+                    $("#content").val(code);
+                });
+            </script>
 
 </body>
 
