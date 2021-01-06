@@ -6,17 +6,34 @@ if (
     isset($_POST['titulo']) && isset($_POST['content']) && isset($_POST['categoria'])
 ) {
 
+    // Variables generales
     $titulo = $_POST['titulo'];
     $titulo_original = $titulo;
     $content = $_POST['content'];
     $categoria = $_POST['categoria'];
 
+    // Obtener los select marcados
     $categorias_select = getSelect($categoria);
-    
 
-    // $ruta = '../blog/';
-    // $nombre_fichero = convertInUrl($titulo);
-    // $ruta_absoluta = $ruta . $nombre_fichero;
+    // Convertir nombre del fichero en URL
+    $ruta = '../blog/';
+    $nombre_fichero = convertInUrl($titulo);
+    $ruta_absoluta = $ruta . $nombre_fichero;
+
+    // Para la imagen
+    $directorio_destino = '../img/blog/';
+
+    if (!empty($_FILES['imagen']['tmp_name']) && !empty($_POST['nombre_img']) ) {
+        if (subir_fichero($directorio_destino, 'imagen')) {
+            echo 'Archivo recibido correctamente';
+        }
+        else {
+            echo 'No se ha podido subir la imagen';
+        }
+    }
+    else {
+        echo 'No existen las variables';
+    }
 
     // file_put_contents($ruta_absoluta, $codigo);
 }

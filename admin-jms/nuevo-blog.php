@@ -61,7 +61,7 @@ $arregloUsuario = $_SESSION['datos_login'];
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form action="../php/insertar-blog.php" method="post" enctype="multipart/form-data">
+                                <form action="../php/insertar-blog.php" method="POST" enctype="multipart/form-data">
                                     <div class="card-body" style="background-color: #F1F1F1;">
                                         <div class="row">
                                             <!-- Columna grande izquierda -->
@@ -101,21 +101,15 @@ $arregloUsuario = $_SESSION['datos_login'];
                                                     </select>
                                                 </div>
                                                 <div class="form-group">
-                                                    <label for="imagen">Imagen destacada</label>
+                                                    <label for="imagen">Imagen</label>
                                                     <input name="imagen" type="file" class="form-control-file" id="imagen">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="nombre_img">Nombre de la imagen</label>
+                                                    <input name="nombre_img" type="text" class="form-control" id="nombre_img" placeholder="Imagen.jpg">
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="row">
-                                            <div class="col">
-                                            </div>
-                                            <div class="col">
-
-                                            </div>
-                                        </div>
-
-
                                         <!-- /.card-body -->
 
                                         <div class="card-footer">
