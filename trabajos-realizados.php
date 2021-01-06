@@ -69,7 +69,7 @@ $portfolio = $conexion->query("SELECT * FROM portfolio ORDER BY id DESC") or die
                 ?>
                     <div class="col-md-4">
                         <div class="work-box">
-                            <a data-fancybox data-type="iframe" data-src="<?php echo $fila['enlace']; ?>" href="javascript:;">
+                            <a data-fancybox data-type="iframe" data-src="<?php echo $fila['enlace']; ?>" href="javascript:;" rel="nofollow">
                                 <div class="work-img">
                                     <img src="img/portfolio/<?php echo $fila['imagen']; ?>" alt="<?php echo $fila['alt']; ?>" class="img-fluid">
                                 </div>

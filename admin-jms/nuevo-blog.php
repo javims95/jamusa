@@ -15,7 +15,7 @@ $arregloUsuario = $_SESSION['datos_login'];
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nuevo portfolio</title>
+    <title>Nuevo post para el Blog</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -80,8 +80,16 @@ $arregloUsuario = $_SESSION['datos_login'];
                                                 <h1 class="h3 text-center">SEO</h1>
                                                 <hr>
                                                 <div class="form-group">
-                                                    <label for="exampleInputEmail1">Title</label>
-                                                    <input id="title" name="title" type="text" class="form-control" placeholder="Jamusa - ¡El desarrollador de tu página web barata!">
+                                                    <label for="meta_titulo">Título SEO</label>
+                                                    <input id="meta_titulo" name="meta_titulo" type="text" class="form-control" maxlength="70" placeholder="Jamusa - ¡El desarrollador de tu página web barata!">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="meta_descripcion">Meta descripción</label>
+                                                    <textarea id="meta_descripcion" name="meta_descripcion" type="text" class="form-control" maxlength="155" placeholder="¿Estás intentado Configurar la URL de seguimiento de GLS o ASM en Prestashop? Nuestro equipo de profesionales lo hará por ti. Tenemos una tarifa muy económica, y quedaría configurado y terminado en cuestión de una hora."></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="keywords">Keywords</label>
+                                                    <input id="keywords" name="keywords" type="text" class="form-control" placeholder="Wordpress, Prestashop, Página web económica">
                                                 </div>
                                             </div>
                                             <!-- Columna pequeña derecha -->

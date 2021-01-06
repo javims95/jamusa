@@ -38,12 +38,12 @@
 
 
     <!-- Cabecera  -->
-    <div class="intro intro-single route mb-4">
+    <div class="intro intro-single route mb-4 bg-image" style="background: url(../img/blog/cabecera-blog.svg); background-size: 100% 100%;">
         <div class="overlay-mf"></div>
         <div class="intro-content display-table">
             <div class="table-cell">
                 <div class="container">
-                    <h3 class="intro-title ff-rubik mb-4">Blog-Single</h3>
+                    <!-- <h3 class="intro-title ff-rubik mb-4">Blog-Single</h3> -->
                 </div>
             </div>
         </div>
