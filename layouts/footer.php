@@ -1,5 +1,5 @@
 <!-- Back to top -->
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<a href="#" class="back-to-top"><i class="ion-chevron-up"></i></a>
 <!-- Gif -->
 <div id="preloader"></div>
 

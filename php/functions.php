@@ -73,7 +73,7 @@ function subir_fichero($directorio_destino, $nombre_fichero, $nombre_final)
  strpos($img_type, "jpg")) || strpos($img_type, "png")))
         {
             //Se sube la imagen
-            if (move_uploaded_file($tmp_name, $directorio_destino . '/' . $nombre_final))
+            if (move_uploaded_file($tmp_name, $directorio_destino . $nombre_final))
             {
                 return true;
             }
