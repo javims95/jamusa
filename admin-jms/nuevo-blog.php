@@ -76,6 +76,10 @@ $arregloUsuario = $_SESSION['datos_login'];
                                                 <div class="form-group">
                                                     <textarea hidden="hidden" id="content" name="content"></textarea>
                                                 </div>
+                                                <h4 class="mt-3">Descripción breve</h3>
+                                                <div class="form-group">
+                                                    <textarea class="form-control" rows="3" name="resumen"></textarea>
+                                                </div>
                                                 <br>
                                                 <h1 class="h3 text-center">SEO</h1>
                                                 <hr>

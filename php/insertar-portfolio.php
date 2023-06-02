@@ -19,7 +19,6 @@ if (
         }
     } else {
         if (move_uploaded_file($guardado, $directorio . $nombre)) {
-            echo "Archivo guardado con exito";
 
             // Insertamos los datos en la DDBB
             $conexion->query("insert into portfolio 
@@ -32,11 +31,12 @@ if (
                     '" . $_POST['fecha'] . "',
                     '" . $_POST['nombre_imagen'] . "',
                     '" . $_POST['alt'] . "'
-                )   ") or die($conexion->error);  
+                )   ") or die($conexion->error);
+                header("Location: ../admin-jms/nuevo-portfolio.php");
 
 
         } else {
-            echo "Archivo no se pudo guardar";
+            header("Location: ../admin-jms/nuevo-portfolio.php?error=El archivo no se puedo guardar");
         }
 
         

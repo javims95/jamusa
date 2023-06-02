@@ -9,7 +9,7 @@
         <a href="../php/cerrarSesion.php" class="nav-link">Cerrar Sesión</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="../index.php" class="nav-link">Página principal</a>
+        <a href="../" class="nav-link">Página principal</a>
       </li>
     </ul>
 
@@ -44,8 +44,16 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
+          <li class="nav-item">
+            <a href="/admin-jms/" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-comments"></i>
               <p>
                 Blog

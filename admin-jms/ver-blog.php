@@ -7,7 +7,7 @@ if (!isset($_SESSION['datos_login'])) {
 }
 $arregloUsuario = $_SESSION['datos_login'];
 
-$portfolio = $conexion->query("SELECT * FROM portfolio ORDER BY id DESC") or die($conexion->error);
+$blog = $conexion->query("SELECT * FROM blog ORDER BY id DESC") or die($conexion->error);
 
 
 ?>
@@ -43,7 +43,7 @@ $portfolio = $conexion->query("SELECT * FROM portfolio ORDER BY id DESC") or die
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Portfolios publicados</h1>
+                            <h1 class="m-0">Blogs publicados</h1>
                         </div><!-- /.col -->                        
                     </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
@@ -57,25 +57,29 @@ $portfolio = $conexion->query("SELECT * FROM portfolio ORDER BY id DESC") or die
                             <tr>
                                 <th>Id</th>
                                 <th>Imagen</th>
-                                <th>Enlace</th>
                                 <th>Título</th>
-                                <th>Categoría</th>
+                                <th>Resumen</th>
                                 <th>Fecha</th>
-                                <th>Descripción (alt)</th>
+                                <th>Categoría</th>
+                                <th>Meta título</th>
+                                <th>Meta descripción</th>
+                                <th>Keywords</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php
-                            while ($fila = mysqli_fetch_array($portfolio)) {
+                            while ($fila = mysqli_fetch_array($blog)) {
                             ?>
                                 <tr>
                                     <td>#<?php echo $fila['id']; ?></td>
-                                    <td><img src="../img/portfolio/<?php echo $fila['imagen']; ?>" width="100px" height="70px" alt=""></td>
-                                    <td><a href="<?php echo $fila['enlace']; ?>"><?php echo $fila['enlace']; ?></a></td>
+                                    <td><img src="../img/blog/<?php echo $fila['imagen']; ?>" width="100px" height="70px" alt=""></td>
                                     <td><?php echo $fila['titulo']; ?></td>
-                                    <td><?php echo $fila['categoria']; ?></td>
+                                    <td><?php echo $fila['resumen']; ?></td>
                                     <td><?php echo $fila['fecha']; ?></td>
-                                    <td><?php echo $fila['alt']; ?></td>
+                                    <td><?php echo $fila['categoria']; ?></td>
+                                    <td><?php echo $fila['meta_titulo']; ?></td>
+                                    <td><?php echo $fila['meta_descripcion']; ?></td>
+                                    <td><?php echo $fila['keywords']; ?></td>
                                 </tr>
                             <?php } ?>
                         </tbody>
